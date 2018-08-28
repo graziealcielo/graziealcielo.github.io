@@ -1,0 +1,131 @@
+@import 'theme';
+
+nav#navbar-main {
+    padding: $navbar-padding;
+
+    font-weight: $navbar-font-weight;
+    font-size: $navbar-font-size;
+
+    color: $fg;
+    text-align: right;
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    @include no-select;
+
+    a:link,
+    a:active,
+    a:visited {
+        color: $fg;
+        text-decoration: none;
+    }
+
+    a:hover, a:focus {
+        color: $bg;
+    }
+
+    .logo {
+        display: inline-block;
+        float: left;
+
+        width: 200px;
+        height: $navbar-height;
+        line-height: normal;
+
+        text-align: left;
+
+        &:hover, &:focus {
+            color: $fg;
+        }
+
+        & > .img {
+            position: relative;
+            display: inline-block;
+            float: left;
+
+            background: url(/img/logo_small.png);
+            background-size: cover;
+
+            width: $navbar-height;
+            height: $navbar-height;
+
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+            margin-right: $navbar-spacing/2;
+
+            box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .8);
+        }
+
+        & > span:nth-child(2) {
+            position: relative;
+            top: -5px;
+            font-size: 12px;
+        }
+
+        & > span:last-child {
+            position: relative;
+            bottom: 5px;
+            font-size: 22px;
+            text-transform: none;
+            font-variant: small-caps;
+        }
+    }
+
+    .button {
+        display: inline-block;
+        height: $navbar-height;
+        line-height: $navbar-height;
+
+        padding: 0 12px;
+        margin-left: $navbar-spacing;
+
+        text-align: center;
+
+        border: 2px solid $fg;
+        border-radius: 8px;
+
+        mix-blend-mode: multiply;
+
+        &:hover, &:focus {
+            background: $fg;
+        }
+    }
+
+    &.floating {
+        position: absolute;
+        top: 0;
+
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    &.inverted {
+        color: $bg;
+
+        a:link,
+        a:active,
+        a:visited {
+            color: $bg;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: $fg;
+        }
+
+        .logo:hover, .logo:focus {
+            color: $bg;
+        }
+
+        .button {
+            border-color: $bg;
+            mix-blend-mode: screen;
+
+            &:hover, &:focus {
+                background: $bg;
+            }
+        }
+    }
+}

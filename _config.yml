@@ -1,0 +1,17 @@
+title: Associazione Grazie al Cielo
+author: Associazione Grazie al Cielo
+email: associazionegraziealcielo@gmail.com
+description: >-
+  Solidarietà tra famiglie ed universitari e giovani lavoratori fuorisede.
+  Collaborazione nella redazione della rivista "Incontro alla Realtà"
+baseurl: ""
+url: "https://graziealcielo.github.io"
+github_username: graziealcielo
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+sass:
+  style: :compressed

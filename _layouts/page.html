@@ -1,0 +1,8 @@
+---
+layout: base
+stylesheet: page
+---
+{% include navbar.html %}
+<main {% if page.main_class or layout.main_class %}class="{{ layout.main_class }} {{ page.main_class }}"{% endif %}>
+    {{ content }}
+</main>

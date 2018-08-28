@@ -1,0 +1,85 @@
+@import 'theme';
+
+@import 'fonts';
+
+@import 'transform';
+@import 'no-select';
+
+@import 'button-shape';
+
+body {
+    margin: 0;
+
+    background: $bg;
+
+    font-family: $font;
+    color: $fg;
+}
+
+a {
+    &:link, &:active, &:visited {
+        color: $link-color;
+        text-decoration: $link-decoration;
+    }
+
+    &:hover {
+        color: $link-color-hover;
+    }
+}
+
+footer {
+    padding: (($footer-height - 2*$footer-line-height)/2) $footer-padding;
+
+    line-height: $footer-line-height;
+
+    background-color: $footer-bg;
+    color: $footer-fg;
+
+    text-align: center;
+
+    font-weight: $footer-font-weight;
+    font-size: $footer-font-size;
+    text-transform: $footer-text-transform;
+
+    @include no-select;
+
+    img.fblogo {
+        width: 1.4*$footer-font-size;
+        height: 1.4*$footer-font-size;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-top: -4px;
+    }
+
+    nav > * {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: $footer-line-height/2;
+
+        margin-right: $footer-spacing;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+            border-bottom: 2px solid $footer-fg;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .copyright {
+        padding: (($footer-line-height - $footer-font-size)/2) 0;
+        line-height: normal;
+    }
+
+    a:link,
+    a:active,
+    a:visited,
+    a:hover {
+        color: $footer-fg;
+        text-decoration: none;
+    }
+}
+
+@import 'navbar';
