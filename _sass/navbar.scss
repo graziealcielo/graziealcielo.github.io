@@ -50,6 +50,7 @@ nav#navbar-main {
             width: $navbar-height+4px;
             height: $navbar-height+4px;
 
+            border-radius: 5px;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
 
@@ -60,13 +61,13 @@ nav#navbar-main {
 
         & > span:nth-child(2) {
             position: relative;
-            top: -4px;
+            top: -3px;
             font-size: 12px;
         }
 
         & > span:last-child {
             position: relative;
-            bottom: 4px;
+            bottom: 3px;
             font-size: 24px;
             text-transform: none;
             font-variant: small-caps;
@@ -122,7 +123,7 @@ nav#navbar-main {
         }
 
         .logo span {
-            text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+            text-shadow: 0 0 5px rgba(0, 0, 0, .3);
         }
 
         .logo:hover, .logo:focus {
