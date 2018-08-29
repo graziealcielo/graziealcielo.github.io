@@ -55,7 +55,7 @@ nav#navbar-main {
 
             margin-right: $navbar-spacing/2;
 
-            box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .8);
+            box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .8);
         }
 
         & > span:nth-child(2) {
@@ -99,6 +99,8 @@ nav#navbar-main {
 
         box-sizing: border-box;
         width: 100%;
+
+        background: linear-gradient(0deg, transparent, rgba(0, 0, 0, .25));
     }
 
     &.inverted {
