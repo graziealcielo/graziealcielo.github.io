@@ -25,7 +25,7 @@
 
     <script src="/js/bundle.js" async></script>
 </head>
-<body>
+<body onresize="document.body.classList.remove('menu-open')">
     {{ content }}
     {% include footer.html %}
 </body>

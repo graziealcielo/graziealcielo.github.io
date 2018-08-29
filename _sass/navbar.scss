@@ -178,7 +178,7 @@ nav#navbar-main {
         }
 
         .logo span {
-            text-shadow: 0 0 5px rgba(0, 0, 0, .3);
+            text-shadow: 0 0 5px rgba(0, 0, 0, .4);
         }
 
         .logo:hover, .logo:focus {
@@ -186,7 +186,7 @@ nav#navbar-main {
         }
 
         .button {
-            background: radial-gradient(farthest-corner, rgba(0, 0, 0, .1), transparent);
+            background: radial-gradient(farthest-corner, rgba(0, 0, 0, .15), transparent);
         }
 
         .button:hover {
@@ -200,67 +200,6 @@ nav#navbar-main {
             &:hover, &:focus {
                 background: $bg;
             }
-        }
-    }
-}
-
-body.menu-open {
-    overflow: hidden;
-
-    nav#navbar-main {
-        .menu-backdrop {
-            width: 300vmax;
-            height: 300vmax;
-        }
-
-        .links {
-            opacity: 1;
-            top: 50vh;
-
-            -webkit-transition: opacity linear .4s, top step-start .4s;
-            transition: opacity linear .4s, top step-start .4s;
-        }
-
-        .button {
-            background: none;
-        }
-
-        .button:link,
-        .button:active,
-        .button:visited {
-            color: $bg;
-        }
-
-        .button a {
-            mix-blend-mode: normal;
-
-            color: $bg;
-            border-color: $bg;
-
-            &:hover, &:focus {
-                color: $accent;
-                border-color: $bg;
-                background: $bg;
-            }
-        }
-
-        .menu-button {
-            mix-blend-mode: normal;
-
-            color: $bg;
-            border-color: transparent;
-
-            &:hover, &:focus {
-                color: $bg;
-                border-color: transparent;
-            }
-        }
-
-        .menu-button::before {
-            content: "×";
-            top: 12px;
-            font-size: 40px;
-            font-weight: 400;
         }
     }
 }
@@ -299,6 +238,75 @@ body.menu-open {
 
         .menu-button {
             display: inline-block;
+        }
+    }
+
+    body.menu-open {
+        overflow: hidden;
+
+        nav#navbar-main {
+            .menu-backdrop {
+                width: 300vmax;
+                height: 300vmax;
+            }
+
+            .logo {
+                color: $bg;
+
+                span {
+                    text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+                }
+            }
+
+            .links {
+                opacity: 1;
+                top: 50vh;
+
+                -webkit-transition: opacity linear .4s, top step-start .4s;
+                transition: opacity linear .4s, top step-start .4s;
+            }
+
+            .button {
+                background: none;
+            }
+
+            .button:link,
+            .button:active,
+            .button:visited {
+                color: $bg;
+            }
+
+            .button a {
+                mix-blend-mode: normal;
+
+                color: $bg;
+                border-color: $bg;
+
+                &:hover, &:focus {
+                    color: $accent;
+                    border-color: $bg;
+                    background: $bg;
+                }
+            }
+
+            .menu-button {
+                mix-blend-mode: normal;
+
+                color: $bg;
+                border-color: transparent;
+
+                &:hover, &:focus {
+                    color: $bg;
+                    border-color: transparent;
+                }
+            }
+
+            .menu-button::before {
+                content: "×";
+                top: 12px;
+                font-size: 40px;
+                font-weight: 400;
+            }
         }
     }
 }
