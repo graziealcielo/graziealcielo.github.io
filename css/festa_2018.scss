@@ -1,6 +1,7 @@
 ---
 ---
 
+@import 'query';
 @import 'theme';
 
 header.splash {
@@ -32,52 +33,31 @@ header.splash {
     }
 }
 
-@media (max-width: 240px),
-       (max-width: 480px) and (-webkit-max-resolution: 1dppx),
-       (max-width: 480px) and (        max-resolution: 1dppx),
-       (max-width: 480px) and (        max-resolution: 96dpi) {
+@media #{query-splash-size(480px, 360px)} {
     header.splash {
         background-image: url(/img/festa_2018/banner_480.jpg);
     }
 }
 
-@media (min-width: 241px) and (max-width: 320px) and (-webkit-min-resolution: 1.1dppx),
-       (min-width: 241px) and (max-width: 320px) and (        min-resolution: 1.1dppx),
-       (min-width: 241px) and (max-width: 320px) and (        min-resolution: 97dpi),
-       (min-width: 481px) and (max-width: 640px) and (-webkit-max-resolution: 1dppx),
-       (min-width: 481px) and (max-width: 640px) and (        max-resolution: 1dppx),
-       (min-width: 481px) and (max-width: 640px) and (        max-resolution: 96dpi) {
+@media #{query-splash-size(640px, 480px, 480px, 360px)} {
     header.splash {
         background-image: url(/img/festa_2018/banner_640.jpg);
     }
 }
 
-@media (min-width: 321px) and (max-width: 480px) and (-webkit-min-resolution: 1.1dppx),
-       (min-width: 321px) and (max-width: 480px) and (        min-resolution: 1.1dppx),
-       (min-width: 321px) and (max-width: 480px) and (        min-resolution: 97dpi),
-       (min-width: 641px) and (max-width: 960px) and (-webkit-max-resolution: 1dppx),
-       (min-width: 641px) and (max-width: 960px) and (        max-resolution: 1dppx),
-       (min-width: 641px) and (max-width: 960px) and (        max-resolution: 96dpi) {
+@media #{query-splash-size(960px, 720px, 640px, 480px)} {
     header.splash {
         background-image: url(/img/festa_2018/banner_960.jpg);
     }
 }
 
-@media (min-width: 481px) and (max-width: 683px)  and (-webkit-min-resolution: 1.1dppx),
-       (min-width: 481px) and (max-width: 683px)  and (        min-resolution: 1.1dppx),
-       (min-width: 481px) and (max-width: 683px)  and (        min-resolution: 97dpi),
-       (min-width: 961px) and (max-width: 1366px) and (-webkit-max-resolution: 1dppx),
-       (min-width: 961px) and (max-width: 1366px) and (        max-resolution: 1dppx),
-       (min-width: 961px) and (max-width: 1366px) and (        max-resolution: 96dpi) {
+@media #{query-splash-size(1366px, 1025px, 960px, 720px)} {
     header.splash {
         background-image: url(/img/festa_2018/banner_1366.jpg);
     }
 }
 
-@media (min-width: 684px) and (-webkit-min-resolution: 1.1dppx),
-       (min-width: 684px) and (        min-resolution: 1.1dppx),
-       (min-width: 684px) and (        min-resolution: 97dpi),
-       (min-width: 1367px) {
+@media #{query-splash-size(2048px, 1536px, 1366px, 1025px, $last: true)} {
     header.splash {
         background-image: url(/img/festa_2018/banner_2048.jpg);
     }
