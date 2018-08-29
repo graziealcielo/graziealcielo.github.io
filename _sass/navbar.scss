@@ -77,9 +77,15 @@ nav#navbar-main {
         display: inline-block;
         height: $navbar-height;
         line-height: $navbar-height;
+        margin-left: $navbar-spacing;
+    }
+
+    .button a {
+        display: inline-block;
+        height: $navbar-height;
+        line-height: $navbar-height;
 
         padding: 0 12px;
-        margin-left: $navbar-spacing;
 
         text-align: center;
 
@@ -99,8 +105,6 @@ nav#navbar-main {
 
         box-sizing: border-box;
         width: 100%;
-
-        background: linear-gradient(0deg, transparent, rgba(0, 0, 0, .25));
     }
 
     &.inverted {
@@ -117,11 +121,23 @@ nav#navbar-main {
             color: $fg;
         }
 
+        .logo span {
+            text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+        }
+
         .logo:hover, .logo:focus {
             color: $bg;
         }
 
         .button {
+            background: radial-gradient(farthest-corner, rgba(0, 0, 0, .2), transparent);
+        }
+
+        .button:hover {
+            background: none;
+        }
+
+        .button a {
             border-color: $bg;
             mix-blend-mode: screen;
 
