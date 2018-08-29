@@ -13,6 +13,20 @@ body {
     min-height: 100vh;
 }
 
+@media (max-width: 417px) {
+    body {
+        margin-bottom: -$footer-height - $footer-font-size;
+        padding-bottom: $footer-height + $footer-font-size;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        margin-bottom: -$footer-height - 2*$footer-font-size;
+        padding-bottom: $footer-height + 2*$footer-font-size;
+    }
+}
+
 footer {
     box-sizing: border-box;
     position: absolute;

@@ -100,6 +100,61 @@ nav#navbar-main {
         }
     }
 
+    .menu-backdrop {
+        position: fixed;
+        top: $navbar-padding + $navbar-height/2;
+        right: $navbar-padding + $navbar-height/2;
+        @include transform(translate(50%, -50%));
+
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        margin: 0;
+        padding: 0;
+
+        border-radius: 100%;
+        background: $accent;
+
+        -webkit-transition: width .4s linear, height .4s linear;
+        transition: width .4s linear, height .4s linear;
+    }
+
+    .menu-button {
+        display: none;
+        width: $navbar-height;
+        height: $navbar-height;
+
+        cursor: pointer;
+
+        text-align: center;
+
+        border: 2px solid $fg;
+        border-radius: 100%;
+
+        mix-blend-mode: multiply;
+
+        // Menu icon
+        &::before {
+            content: "—\a—\a—";
+            display: inline-block;
+
+            position: relative;
+            top: 7px;
+
+            font-size: 24px;
+            line-height: 0.3;
+            font-weight: 700;
+            white-space: pre;
+        }
+
+        &:hover, &:focus {
+            color: $bg;
+            background: $fg;
+        }
+    }
+
     &.floating {
         position: absolute;
         top: 0;
@@ -118,7 +173,7 @@ nav#navbar-main {
             text-decoration: none;
         }
 
-        a:hover, a:focus {
+        a:hover, a:focus, .menu-button:hover, .menu-button:focus {
             color: $fg;
         }
 
@@ -138,13 +193,140 @@ nav#navbar-main {
             background: none;
         }
 
-        .button a {
+        .button a, .menu-button {
             border-color: $bg;
             mix-blend-mode: screen;
 
             &:hover, &:focus {
                 background: $bg;
             }
+        }
+    }
+}
+
+body.menu-open {
+    overflow: hidden;
+
+    nav#navbar-main {
+        .menu-backdrop {
+            width: 300vmax;
+            height: 300vmax;
+        }
+
+        .links {
+            opacity: 1;
+            top: 50vh;
+
+            -webkit-transition: opacity linear .4s, top step-start .4s;
+            transition: opacity linear .4s, top step-start .4s;
+        }
+
+        .button {
+            background: none;
+        }
+
+        .button:link,
+        .button:active,
+        .button:visited {
+            color: $bg;
+        }
+
+        .button a {
+            mix-blend-mode: normal;
+
+            color: $bg;
+            border-color: $bg;
+
+            &:hover, &:focus {
+                color: $accent;
+                border-color: $bg;
+                background: $bg;
+            }
+        }
+
+        .menu-button {
+            mix-blend-mode: normal;
+
+            color: $bg;
+            border-color: transparent;
+
+            &:hover, &:focus {
+                color: $bg;
+                border-color: transparent;
+            }
+        }
+
+        .menu-button::before {
+            content: "×";
+            top: 12px;
+            font-size: 40px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    nav#navbar-main {
+        .links {
+            position: fixed;
+            opacity: 0;
+            left: 50vw;
+            top: -100vh;
+            @include transform(translate(-50%, -50%));
+            text-align: center;
+
+            -webkit-transition: opacity linear .4s, top step-end .4s;
+            transition: opacity linear .4s, top step-end .4s;
+        }
+
+        .button {
+            display: block;
+            margin: 0;
+            margin-bottom: 2*$navbar-spacing;
+
+            a {
+                width: 150px;
+            }
+        }
+
+        .button:last-child {
+            margin-bottom: 0;
+        }
+
+        .menu-backdrop {
+            display: block;
+        }
+
+        .menu-button {
+            display: inline-block;
+        }
+    }
+}
+
+@media (max-width: 339px) {
+    nav#navbar-main {
+        padding: $navbar-padding/2;
+
+        .menu-backdrop {
+            top: $navbar-padding/2 + $navbar-height/2;
+            right: $navbar-padding/2 + $navbar-height/2;
+        }
+    }
+}
+
+@media (max-width: 299px) {
+    nav#navbar-main .logo {
+        width: 200px;
+        height: $navbar-height;
+
+        & > .img {
+            width: $navbar-height;
+            height: $navbar-height;
+            margin-right: 4px;
+        }
+
+        & > span:last-child {
+            font-size: 22px;
         }
     }
 }
