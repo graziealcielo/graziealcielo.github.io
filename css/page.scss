@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-@media (max-width: 417px) {
+@media (min-width: 351px) and (max-width: 417px) {
     body {
         margin-bottom: -$footer-height - $footer-font-size;
         padding-bottom: $footer-height + $footer-font-size;
@@ -22,8 +22,8 @@ body {
 
 @media (max-width: 350px) {
     body {
-        margin-bottom: -$footer-height - 2*$footer-font-size;
-        padding-bottom: $footer-height + 2*$footer-font-size;
+        margin-bottom: -$footer-height - $footer-font-size - $footer-line-height;
+        padding-bottom: $footer-height + $footer-font-size + $footer-line-height;
     }
 }
 
