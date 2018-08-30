@@ -7,6 +7,8 @@
 @import 'query';
 @import 'theme';
 
+$accent-festa: #4d91ff;
+
 header.splash {
     font-family: $banner-font;
     background-position: right;
@@ -15,6 +17,10 @@ header.splash {
 
     .center {
         padding: 0 30px;
+    }
+
+    h1, h2 {
+        font-weight: normal;
     }
 
     h1 {
@@ -45,18 +51,20 @@ header.splash {
         padding: 0;
 
         font-family: $font;
-        font-weight: bold;
+        font-weight: $navbar-font-weight;
+        font-size: 15px;
         text-transform: uppercase;
 
         a {
             display: inline-block;
-            background-color: #f22;
+            background-color: $accent-festa;
 
-            padding: 10px 18px;
-            margin-bottom: 10px;
-            margin-right: 10px;
+            padding: 6px 14px;
+            margin: 4px;
+            margin-bottom: 14px;
+            margin-right: 14px;
 
-            border-radius: 10px;
+            border-radius: 13.5px;
 
             &:last-child {
                 margin-right: 0;
@@ -70,7 +78,7 @@ header.splash {
             }
 
             &:hover, &:focus {
-                color: #f22;
+                color: $accent-festa;
                 background-color: #fff;
             }
         }
@@ -99,7 +107,7 @@ header.splash {
 
 @media (min-width: 511px) and (max-width: 999px) {
     header.splash .links {
-        max-width: 560px;
+        max-width: 520px;
 
         a:nth-child(3) {
             margin-right: 0;
@@ -131,8 +139,8 @@ header.splash {
         }
 
         .links a {
-            margin-right: 0;
-            margin-bottom: 4px;
+            margin-right: 4px;
+            margin-bottom: 8px;
         }
     }
 }
