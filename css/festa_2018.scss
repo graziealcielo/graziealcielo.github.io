@@ -7,7 +7,10 @@
 @import 'query';
 @import 'theme';
 
-$accent-festa: #4d91ff;
+$accent1: #53af82; //#00b55c;
+$accent2: #ba6b00;
+$link-btn: transparentize($accent1, 0.4);
+$link-btn-highlight: transparentize($accent2, 0.4);
 
 header.splash {
     font-family: $banner-font;
@@ -57,14 +60,14 @@ header.splash {
 
         a {
             display: inline-block;
-            background-color: $accent-festa;
+            background-color: $link-btn;
 
-            padding: 6px 14px;
-            margin: 4px;
-            margin-bottom: 14px;
-            margin-right: 14px;
+            padding: 8px 16px;
+            margin: 2px;
+            margin-bottom: 12px;
+            margin-right: 12px;
 
-            border-radius: 13.5px;
+            border-radius: 24px;
 
             &:last-child {
                 margin-right: 0;
@@ -78,8 +81,8 @@ header.splash {
             }
 
             &:hover, &:focus {
-                color: $accent-festa;
-                background-color: #fff;
+                color: #fff;
+                background-color: $link-btn-highlight;
             }
         }
     }
@@ -139,8 +142,8 @@ header.splash {
         }
 
         .links a {
-            margin-right: 4px;
-            margin-bottom: 8px;
+            margin-right: 2px;
+            margin-bottom: 6px;
         }
     }
 }
