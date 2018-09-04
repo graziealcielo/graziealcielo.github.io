@@ -1,19 +1,20 @@
 ---
 ---
-
+@charset 'UTF-8';
 @import 'no-select';
 @import 'animation';
 @import 'transform';
 @import 'query';
 @import 'theme';
 
-$accent1: #53af82; //#00b55c;
-$accent2: #ba6b00;
+$accent1: #0f8c5a;
+//$accent1: #53af82;
+$accent2: #e79957;
 $link-btn: transparentize($accent1, 0.4);
 $link-btn-highlight: transparentize($accent2, 0.4);
 
 header.splash {
-    font-family: $banner-font;
+    font-family: $splash-font;
     background-position: right;
 
     @include no-select;
@@ -49,46 +50,48 @@ header.splash {
         margin: 1em 0;
     }
 
-    .links {
+    nav {
         margin: 0 auto;
         padding: 0;
+    }
+}
 
-        font-family: $font;
-        font-weight: $navbar-font-weight;
-        font-size: 15px;
-        text-transform: uppercase;
+nav.event-navbar {
+    font-family: $font;
+    font-weight: $navbar-font-weight;
+    font-size: 15px;
+    text-transform: uppercase;
 
-        a {
-            display: inline-block;
-            background-color: $link-btn;
+    a {
+        display: inline-block;
+        background-color: $link-btn;
 
-            padding: 8px 16px;
-            margin: 2px;
-            margin-bottom: 12px;
-            margin-right: 12px;
+        padding: 8px 16px;
+        margin: 2px;
+        margin-bottom: 12px;
+        margin-right: 12px;
 
-            border-radius: 24px;
+        border-radius: 18px;
 
-            &:last-child {
-                margin-right: 0;
-            }
+        &:last-child {
+            margin-right: 0;
+        }
 
-            &:link,
-            &:active,
-            &:visited {
-                color: #fff;
-                text-decoration: none;
-            }
+        &:link,
+        &:active,
+        &:visited {
+            color: #fff;
+            text-decoration: none;
+        }
 
-            &:hover, &:focus {
-                color: #fff;
-                background-color: $link-btn-highlight;
-            }
+        &:hover, &:focus {
+            color: #fff;
+            background-color: $link-btn-highlight;
         }
     }
 }
 
-@media (max-height: 689px), (max-width: 999px) and (max-height: 749px) {
+@media (max-height: 690px), (max-width: 1000px) and (max-height: 750px) {
     header.splash .center {
         padding-top: 60px;
     }
@@ -101,14 +104,14 @@ header.splash {
     }
 }
 
-@media (max-width: 694px) and (max-height: 689px), (max-width: 585px), (max-height: 600px) {
+@media (max-width: 695px) and (max-height: 690px), (max-width: 585px), (max-height: 600px) {
     header.splash h2 {
         font-size: 1.8em;
         margin: .6em 0;
     }
 }
 
-@media (min-width: 511px) and (max-width: 999px) {
+@media (min-width: 510px) and (max-width: 1000px) {
     header.splash .links {
         max-width: 520px;
 
@@ -118,7 +121,7 @@ header.splash {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
     header.splash {
         .center {
             padding-left: 0;
@@ -135,7 +138,7 @@ header.splash {
     }
 }
 
-@media (max-width: 339px) {
+@media (max-width: 340px) {
     header.splash {
         h1 {
             font-size: 2.5em;

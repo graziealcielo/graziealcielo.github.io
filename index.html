@@ -1,20 +1,11 @@
 ---
-layout: page
 invert_navbar: true
 floating_navbar: true
 stylesheet: festa_2018
 ---
-<header class="splash">
-    <div class="center">
-        <h1>Il&nbsp;volontariato <small>incontra</small> Montesacro</h1><br>
-        <h2>21-22-23&nbsp;settembre &middot; piazza&nbsp;Sempione</h2>
-        <div class="links">
-            <a href="/festa2018/presentazione" title="Presentazione">Presentazione</a>
-            <a href="/festa2018/programma" title="Programma">Programma</a>
-            <a href="/festa2018/incontri" title="Incontri">Incontri</a>
-            <a href="/festa2018/mostre" title="Mostre">Mostre</a>
-            <a href="/festa2018/giochi" title="Giochi">Giochi</a>
-            <a href="/festa2018/spettacoli" title="Concerti e spettacoli">Concerti &amp; Spettacoli</a>
-        </div>
-    </div>
-</header>
+{% include splash.html %}
+<section>
+{% for fragment in site.home_fragments %}
+    {% include fragment.html obj=fragment %}
+{% endfor %}
+</section>

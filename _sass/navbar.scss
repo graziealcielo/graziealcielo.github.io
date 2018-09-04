@@ -1,6 +1,45 @@
 @import 'theme';
 
-nav#navbar-main {
+nav.inline-navbar {
+    @include no-select;
+
+    font-family: $font;
+    font-size: $inline-navbar-link-size;
+    word-spacing: $inline-navbar-link-spacing;
+
+    a {
+        display: inline-block;
+
+        margin-bottom: $inline-navbar-link-spacing;
+        padding: ($inline-navbar-navbar-height - $inline-navbar-link-size - 4px)/2 $inline-navbar-link-padding;
+
+        line-height: $inline-navbar-link-size;
+
+        border: 2px solid $inline-navbar-link-color;
+        border-radius: #{$inline-navbar-navbar-height/2} / 50%;
+
+        word-spacing: normal;
+        text-transform: uppercase;
+
+        &:link,
+        &:active,
+        &:visited {
+            color: $inline-navbar-link-color;
+            text-decoration: none;
+
+            font-variant: normal;
+            font-weight: $inline-navbar-link-weight;
+        }
+
+        &:hover,
+        &:focus {
+            color: $inline-navbar-link-color-hover;
+            background-color: $inline-navbar-link-color;
+        }
+    }
+}
+
+nav#main-navbar {
     padding: $navbar-padding;
 
     font-weight: $navbar-font-weight;
@@ -19,6 +58,9 @@ nav#navbar-main {
     a:visited {
         color: $fg;
         text-decoration: none;
+
+        font-variant: normal;
+        font-weight: $navbar-font-weight;
     }
 
     a:hover, a:focus {
@@ -46,8 +88,9 @@ nav#navbar-main {
 
             background: url(/img/logo_small.png);
             background-size: cover;
+            background-position: left;
 
-            width: $navbar-height+4px;
+            width: $navbar-height+3px;
             height: $navbar-height+4px;
 
             border-radius: 5px;
@@ -55,8 +98,6 @@ nav#navbar-main {
             border-bottom-left-radius: 10px;
 
             margin-right: $navbar-spacing/2;
-
-            box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .8);
         }
 
         & > span:nth-child(2) {
@@ -115,7 +156,7 @@ nav#navbar-main {
         padding: 0;
 
         border-radius: 100%;
-        background: $accent;
+        background: $navbar-menu-background;
 
         -webkit-transition: width .4s linear, height .4s linear;
         transition: width .4s linear, height .4s linear;
@@ -177,12 +218,14 @@ nav#navbar-main {
             color: $fg;
         }
 
-        .logo span {
-            text-shadow: 0 0 5px rgba(0, 0, 0, .4);
-        }
+        .logo {
+            span {
+                text-shadow: 2px 1px 0 rgba(0, 0, 0, .2);
+            }
 
-        .logo:hover, .logo:focus {
-            color: $bg;
+            &:hover, &:focus {
+                color: $bg;
+            }
         }
 
         .button {
@@ -205,7 +248,7 @@ nav#navbar-main {
 }
 
 @media (max-width: 639px) {
-    nav#navbar-main {
+    nav#main-navbar {
         .links {
             position: fixed;
             opacity: 0;
@@ -218,13 +261,37 @@ nav#navbar-main {
             transition: opacity linear .4s, top step-end .4s;
         }
 
+        .logo {
+            -webkit-transition: color linear .4s;
+            transition: color linear .4s;
+        }
+
         .button {
             display: block;
             margin: 0;
             margin-bottom: 2*$navbar-spacing;
 
+            background: none;
+
             a {
                 width: 150px;
+
+                color: $bg;
+                border-color: $bg;
+
+                mix-blend-mode: normal;
+
+                &:link,
+                &:active,
+                &:visited {
+                    color: $bg;
+                }
+
+                &:hover, &:focus {
+                    color: $accent1;
+                    border-color: $bg;
+                    background: $bg;
+                }
             }
         }
 
@@ -244,7 +311,7 @@ nav#navbar-main {
     body.menu-open {
         overflow: hidden;
 
-        nav#navbar-main {
+        nav#main-navbar {
             .menu-backdrop {
                 width: 300vmax;
                 height: 300vmax;
@@ -254,7 +321,7 @@ nav#navbar-main {
                 color: $bg;
 
                 span {
-                    text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+                    text-shadow: 2px 1px 0 rgba(0, 0, 0, .2);
                 }
             }
 
@@ -264,29 +331,6 @@ nav#navbar-main {
 
                 -webkit-transition: opacity linear .4s, top step-start .4s;
                 transition: opacity linear .4s, top step-start .4s;
-            }
-
-            .button {
-                background: none;
-            }
-
-            .button:link,
-            .button:active,
-            .button:visited {
-                color: $bg;
-            }
-
-            .button a {
-                mix-blend-mode: normal;
-
-                color: $bg;
-                border-color: $bg;
-
-                &:hover, &:focus {
-                    color: $accent;
-                    border-color: $bg;
-                    background: $bg;
-                }
             }
 
             .menu-button {
@@ -312,7 +356,7 @@ nav#navbar-main {
 }
 
 @media (max-width: 400px) {
-    nav#navbar-main {
+    nav#main-navbar {
         padding: $navbar-padding/2;
 
         .menu-backdrop {
@@ -323,7 +367,7 @@ nav#navbar-main {
 }
 
 @media (max-width: 299px) {
-    nav#navbar-main .logo {
+    nav#main-navbar .logo {
         width: 200px;
         height: $navbar-height;
 

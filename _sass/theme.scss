@@ -1,31 +1,70 @@
+/* Configurazione generale */
+
 $bg: #fff;
 $fg: #000;
-$accent: #0f8c5a;
+$accent1: #08c;
+$accent2: #49778e;
 $font: 'Lato', sans-serif;
 
-$link-color: #08c;
-$link-color-hover: #08f;
-$link-decoration: underline;
+$link-color: $accent1;
+$link-color-hover: $accent2;
+$link-decoration: none;
+$link-decoration-hover: underline;
 
-$banner-font: 'Rustico', sans-serif;
+/* Immagine a tutto campo nella home */
 
-$header-font: 'Roboto', sans-serif;
-$header-weight: bold;
-$header-color: $fg;
+$splash-font: 'Rustico', sans-serif;
+
+/* Titoli */
+
+$heading-margin: 1em 0;
+$heading-font: $font;
+$heading-weight: bold;
+$heading-size: 2em;
+$heading-transform: none;
+$heading-color: $bg;
+$heading-background: $fg;
+$heading-background-padding: 2px 8px;
+
+/* Barra di navigazione */
 
 $navbar-font-weight: bold;
 $navbar-font-size: 1em;
 $navbar-height: 40px;
 $navbar-padding: 30px;
 $navbar-spacing: 10px;
+$navbar-menu-background: $accent2;
+
+/* Barra di navigazione inline */
+
+$inline-navbar-navbar-height: 36px;
+$inline-navbar-link-size: 16px;
+$inline-navbar-link-color: $fg;
+$inline-navbar-link-color-hover: $bg;
+$inline-navbar-link-padding: 16px;
+$inline-navbar-link-spacing: 10px;
+$inline-navbar-link-weight: bold;
+
+/* Schede (fragments) */
+
+$fragment-padding: 100px 230px 100px 150px;
+$fragment-padding-vertical: 128px 100px 100px;
+$fragment-padding-vertical-half: 128px 50px 50px;
+
+$fragment-img-size: 200px 200px;
+
+$fragment-content-min-height: 84px;
+$fragment-content-spacing: 1.5em;
+
+/* Footer (piede di pagina) */
 
 $footer-height: 220px;
 $footer-padding: 20px;
 $footer-line-height: 60px;
 $footer-spacing: 20px;
 $footer-font: $font;
-$footer-font-weight: $header-weight;
+$footer-font-weight: bold;
 $footer-font-size: 15px;
 $footer-text-transform: uppercase;
-$footer-bg: #0f8c5a;
+$footer-bg: $accent2;
 $footer-fg: #fff;

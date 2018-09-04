@@ -8,10 +8,21 @@ baseurl: ""
 url: "https://graziealcielo.github.io"
 github_username: graziealcielo
 
+collections_dir: collections
+collections:
+    - home_fragments
+
+defaults:
+    - scope:
+          path: ""
+          type: pages
+      values:
+          layout: page
+
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 sass:
-  style: :compressed
+    style: :compressed

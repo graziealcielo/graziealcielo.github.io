@@ -1,0 +1,57 @@
+---
+title: Notizie
+theme: #000
+img:
+    vert:
+        src: /img/news_fragment_vert.jpg
+        position: left
+    horz:
+        src: /img/news_fragment_horz.jpg
+        src_small: /img/news_fragment_horz_small.jpg
+        position: top
+links:
+    - text: Tutte le notizie
+      href: /notizie
+    - text: Pagina Facebook
+      href: "https://www.facebook.com/pg/associazionegraziealcielo"
+      target: _blank
+---
+<style>
+    #fragment-notizie ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #fragment-notizie li {
+        list-style: none;
+    }
+
+    #fragment-notizie li a:hover {
+        text-decoration: none;
+    }
+
+    #fragment-notizie li a:hover .title {
+        text-decoration: underline;
+    }
+
+    #fragment-notizie .date {
+        color: #000;
+        opacity: 0.5;
+        font-variant: normal;
+        font-weight: normal;
+    }
+
+    #fragment-notizie .date::before {
+        content: '—';
+    }
+</style>
+<p>Ultime notizie dall'associazione &ldquo;Grazie al Cielo&rdquo;.</p>
+<ul>
+{% if site.posts == empty %}
+    <li><i style="opacity: 0.5;">(Non ci sono notizie al momento)</i></li>
+{% endif %}
+{% assign latest_news = site.posts | slice: 0, 3 %}
+{% for post in latest_news %}
+    <li><a href="{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date">&nbsp;{%- include date.html date=post.date -%}</span></a></li>
+{% endfor %}
+</ul>

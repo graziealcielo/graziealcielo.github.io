@@ -35,10 +35,10 @@
         @return query-min-with-retina(width, $prev-width + 1px, floor($prev-width/2) + 1px, "orientation: landscape") + "," +
                 query-min-with-retina(height, $prev-height + 1px, floor($prev-height/2) + 1px, "orientation: portrait");
     } @else if ($prev-width == "" or $prev-height == "") {
-        @return query-max-with-retina(width, $width, floor($width/2), "orientation: landscape") + "," +
-                query-max-with-retina(height, $height, floor($height/2), "orientation: portrait");
+        @return query-max-with-retina(width, $width + 1px, floor($width/2) + 1px, "orientation: landscape") + "," +
+                query-max-with-retina(height, $height + 1px, floor($height/2) + 1px, "orientation: portrait");
     } @else {
-        @return query-minmax-with-retina(width, $prev-width + 1px, $width, floor($prev-width/2) + 1px, floor($width/2), "orientation: landscape") + "," +
-                query-minmax-with-retina(height, $prev-height + 1px, $height, floor($prev-height/2) + 1px, floor($height/2), "orientation: portrait");
+        @return query-minmax-with-retina(width, $prev-width + 1px, $width + 1px, floor($prev-width/2) + 1px, floor($width/2) + 1px, "orientation: landscape") + "," +
+                query-minmax-with-retina(height, $prev-height + 1px, $height + 1px, floor($prev-height/2) + 1px, floor($height/2) + 1px, "orientation: portrait");
     }
 }

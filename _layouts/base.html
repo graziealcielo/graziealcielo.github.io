@@ -9,13 +9,46 @@
         <title>{{ site.title }}</title>
     {% endif %}
 
+    <meta name="theme-color" content="#49778e">
+    <link rel="icon" type="image/png" href="/img/icon_50.png" sizes="50x50">
+    <link rel="icon" type="image/png" href="/img/icon_100.png" sizes="100x100">
+
+    <link rel="preload" href="/fonts/Rustico-Regular.otf" as="font">
+    <link rel="preload" href="/img/logo_small.png" as="image">
+
+    {% for preload in page.preloads %}
+        <link rel="preload" href="{{ preload.href }}" as="{{ preload.as }}" {% if preload.media %}media="{{ preload.media }}"{% endif %}>
+    {% endfor %}
+    {% for preload in layout.preloads %}
+        <link rel="preload" href="{{ preload.href }}" as="{{ preload.as }}" {% if preload.media %}media="{{ preload.media }}"{% endif %}>
+    {% endfor %}
+
+    {% if page.stylesheet %}
+        <link rel="preload" href="/css/{{ page.stylesheet }}.css" as="style">
+    {% endif %}
+    {% for stylesheet in page.stylesheets %}
+        <link rel="preload" href="/css/{{ stylesheet }}.css" as="style">
+    {% endfor %}
+    {% if layout.stylesheet %}
+        <link rel="preload" href="/css/{{ layout.stylesheet }}.css" as="style">
+    {% endif %}
+    {% for stylesheet in layout.stylesheets %}
+        <link rel="preload" href="/css/{{ stylesheet }}.css" as="style">
+    {% endfor %}
+
     {% if page.stylesheet %}
         <link rel="stylesheet" href="/css/{{ page.stylesheet }}.css">
     {% endif %}
+    {% for stylesheet in page.stylesheets %}
+        <link rel="stylesheet" href="/css/{{ stylesheet }}.css">
+    {% endfor %}
 
     {% if layout.stylesheet %}
         <link rel="stylesheet" href="/css/{{ layout.stylesheet }}.css">
     {% endif %}
+    {% for stylesheet in layout.stylesheets %}
+        <link rel="stylesheet" href="/css/{{ stylesheet }}.css">
+    {% endfor %}
 
     {% if page.style %}
         <style>
@@ -23,7 +56,7 @@
         </style>
     {% endif %}
 
-    <script src="/js/bundle.js" async></script>
+    <!--<script src="/js/bundle.js" async></script>-->
 </head>
 <body onresize="document.body.classList.remove('menu-open')">
     {{ content }}

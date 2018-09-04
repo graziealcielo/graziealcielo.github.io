@@ -5,8 +5,10 @@
 @import 'fonts';
 
 @import 'animation';
-@import 'transform';
+@import 'box-decoration-break';
 @import 'no-select';
+@import 'query';
+@import 'transform';
 
 @import 'button-shape';
 
@@ -19,14 +21,55 @@ body {
     color: $fg;
 }
 
+.no-select {
+    @include no-select;
+}
+
 a {
     &:link, &:active, &:visited {
         color: $link-color;
         text-decoration: $link-decoration;
+
+        font-variant: small-caps;
+        font-weight: bold;
     }
 
     &:hover {
         color: $link-color-hover;
+        text-decoration: $link-decoration-hover;
+    }
+}
+
+section {
+    h1, h2 {
+        margin: $heading-margin;
+
+        font-family: $heading-font;
+        font-weight: $heading-weight;
+
+        text-transform: $heading-transform;
+    }
+
+    h1 {
+        padding: 0 nth($heading-background-padding, -1);
+        font-size: $heading-size;
+        color: $heading-color;
+
+        & > * {
+            padding: $heading-background-padding;
+            padding-left: 0;
+            padding-right: 0;
+
+            @include box-decoration-break(clone);
+
+            box-shadow: -(nth($heading-background-padding, -1)) 0 0 0 $heading-background,
+                        nth($heading-background-padding, -1) 0 0 0 $heading-background;
+            background: $heading-background;
+        }
+    }
+
+    h2 {
+        font-size: 0.75*$heading-size;
     }
 }
 
@@ -85,5 +128,6 @@ footer {
     }
 }
 
+@import 'fragment';
 @import 'navbar';
 @import 'splash';

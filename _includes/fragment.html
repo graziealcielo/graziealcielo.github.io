@@ -1,0 +1,63 @@
+{%- assign fragment_id = include.obj.title | slugify: 'latin' | prepend: "fragment-" -%}
+<article class="fragment {{ include.obj.class }}" id="{{ fragment_id }}">
+    <style>
+        {%- if include.obj.theme -%}
+        #{{ fragment_id }}::before {
+            background: {{ include.obj.theme }};
+        }
+
+        #{{ fragment_id }} h1 > * {
+            box-shadow: -8px 0 0 0 {{ include.obj.theme }}, 8px 0 0 0 {{ include.obj.theme }};
+            background: {{ include.obj.theme }};
+        }
+
+        #{{ fragment_id }} nav a {
+            color: {{ include.obj.theme }};
+            border-color: {{ include.obj.theme }};
+        }
+
+        #{{ fragment_id }} nav a:hover,
+        #{{ fragment_id }} nav a:focus {
+            color: #fff;
+            background: {{ include.obj.theme }};
+        }
+        {%- endif -%}
+        {%- if include.obj.img -%}
+        #{{ fragment_id }}::after {
+            display: block;
+        }
+
+        @media (min-width: 1000px) {
+            #{{ fragment_id }}::after {
+                background-image: url({{ include.obj.img.vert.src }});
+                {%- if include.obj.img.vert.position -%}background-position: {{ include.obj.img.vert.position }};{%- endif -%}
+            }
+        }
+
+        @media {% if include.obj.img.horz.src_small %}(min-width: 480px) and {% endif %}(max-width: 1000px) {
+            #{{ fragment_id }}::after {
+                background-image: url({{ include.obj.img.horz.src }});
+                {%- if include.obj.img.horz.position -%}background-position: {{ include.obj.img.horz.position }};{%- endif -%}
+            }
+        }
+
+        {%- if include.obj.img.horz.src_small -%}
+        @media (max-width: 480px) {
+            #{{ fragment_id }}::after {
+                background-image: url({{ include.obj.img.horz.src_small }});
+                {%- if include.obj.img.horz.position -%}background-position: {{ include.obj.img.horz.position }};{%- endif -%}
+            }
+        }
+        {%- endif -%}
+        {%- endif -%}
+    </style>
+    <h1><span>{{ include.obj.title }}</span></h1>
+    <div>
+        {{ include.obj.content }}
+    </div>
+    <nav class="inline-navbar">
+        {% for link in include.obj.links %}
+            <a {% if link.download %}download{% endif %} href="{{ link.href }}" {% if link.title %}title="{{ link.title }}"{% endif %} {% if link.target %}target="{{ link.target }}"{% endif %}>{{ link.text }}</a>
+        {% endfor %}
+    </nav>
+</article>

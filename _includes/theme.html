@@ -1,0 +1,21 @@
+<style>
+    section h1 > * {
+        box-shadow: -8px 0 0 0 {{ include.color }}, 8px 0 0 0 {{ include.color }} !important;
+        background: {{ include.color }} !important;
+    }
+
+    section h2 {
+        color: {{ include.color }};
+    }
+
+    nav.inline-navbar a {
+        color: {{ include.color }} !important;
+        border-color: {{ include.color }} !important;
+    }
+
+    nav.inline-navbar a:hover,
+    nav.inline-navbar a:focus {
+        color: #fff !important;
+        background: {{ include.color }} !important;
+    }
+</style>
