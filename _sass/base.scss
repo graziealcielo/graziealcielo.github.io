@@ -40,37 +40,35 @@ a {
     }
 }
 
-section {
-    h1, h2 {
-        margin: $heading-margin;
+section h1, h1.themed, section h2, h2.themed {
+    margin: $heading-margin;
 
-        font-family: $heading-font;
-        font-weight: $heading-weight;
+    font-family: $heading-font;
+    font-weight: $heading-weight;
 
-        text-transform: $heading-transform;
+    text-transform: $heading-transform;
+}
+
+section h1, h1.themed {
+    padding: 0 nth($heading-background-padding, -1);
+    font-size: $heading-size;
+    color: $heading-color;
+
+    & > * {
+        padding: $heading-background-padding;
+        padding-left: 0;
+        padding-right: 0;
+
+        @include box-decoration-break(clone);
+
+        box-shadow: -(nth($heading-background-padding, -1)) 0 0 0 $heading-background,
+                    nth($heading-background-padding, -1) 0 0 0 $heading-background;
+        background: $heading-background;
     }
+}
 
-    h1 {
-        padding: 0 nth($heading-background-padding, -1);
-        font-size: $heading-size;
-        color: $heading-color;
-
-        & > * {
-            padding: $heading-background-padding;
-            padding-left: 0;
-            padding-right: 0;
-
-            @include box-decoration-break(clone);
-
-            box-shadow: -(nth($heading-background-padding, -1)) 0 0 0 $heading-background,
-                        nth($heading-background-padding, -1) 0 0 0 $heading-background;
-            background: $heading-background;
-        }
-    }
-
-    h2 {
-        font-size: 0.75*$heading-size;
-    }
+section h2, h2.themed {
+    font-size: 0.75*$heading-size;
 }
 
 footer {

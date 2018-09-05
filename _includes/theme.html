@@ -1,10 +1,10 @@
 <style>
-    section h1 > * {
+    section h1 > *, h1.themed > * {
         box-shadow: -8px 0 0 0 {{ include.color }}, 8px 0 0 0 {{ include.color }} !important;
         background: {{ include.color }} !important;
     }
 
-    section h2 {
+    section h2, h2.themed {
         color: {{ include.color }};
     }
 

@@ -59,6 +59,7 @@ header.splash {
 nav.event-navbar {
     font-family: $font;
     font-size: 15px;
+    text-align: center;
     text-transform: uppercase;
 
     a {
@@ -93,6 +94,39 @@ nav.event-navbar {
     }
 }
 
+.event-page header {
+    display: block;
+
+    padding: 35px 30px 30px;
+
+    width: auto;
+    height: auto;
+
+    background-position: top 30% center;
+
+    &:nth-of-type(2) {
+        background-position: bottom 35% center;
+    }
+
+    h1 {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+
+        font-family: $splash-font;
+        font-size: 2.5em;
+        line-height: 1.2;
+        font-weight: normal;
+
+        color: rgba(255, 255, 255, 0.95);
+    }
+
+    nav {
+        margin: 0 auto;
+    }
+}
+
 @media (max-height: 690px), (max-width: 1000px) and (max-height: 750px) {
     header.splash .center {
         padding-top: 60px;
@@ -110,6 +144,16 @@ nav.event-navbar {
     header.splash h2 {
         font-size: 1.8em;
         margin: .6em 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .event-page header h1 {
+        margin-bottom: 0;
+    }
+
+    .event-page header:nth-of-type(1) nav {
+        display: none;
     }
 }
 
@@ -138,6 +182,11 @@ nav.event-navbar {
             font-size: 1.5em;
         }
     }
+
+    .event-page header {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 340px) {
@@ -164,31 +213,31 @@ nav.event-navbar {
 }
 
 @media #{query-splash-size(480px, 360px)} {
-    header.splash {
+    header.splash, .event-page header {
         background-image: url(/img/festa_2018/banner_480.jpg);
     }
 }
 
 @media #{query-splash-size(640px, 480px, 480px, 360px)} {
-    header.splash {
+    header.splash, .event-page header {
         background-image: url(/img/festa_2018/banner_640.jpg);
     }
 }
 
 @media #{query-splash-size(960px, 720px, 640px, 480px)} {
-    header.splash {
+    header.splash, .event-page header {
         background-image: url(/img/festa_2018/banner_960.jpg);
     }
 }
 
 @media #{query-splash-size(1366px, 1025px, 960px, 720px)} {
-    header.splash {
+    header.splash, .event-page header {
         background-image: url(/img/festa_2018/banner_1366.jpg);
     }
 }
 
 @media #{query-splash-size(2048px, 1536px, 1366px, 1025px, $last: true)} {
-    header.splash {
+    header.splash, .event-page header {
         background-image: url(/img/festa_2018/banner_2048.jpg);
     }
 }

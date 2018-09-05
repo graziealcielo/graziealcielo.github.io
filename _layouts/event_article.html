@@ -1,7 +1,7 @@
 ---
 layout: page
-main_class: article
-stylesheets: ['article']
+main_class: article event-page
+stylesheets: ['article', 'event']
 ---
 {%- if page.theme -%}{% include theme.html color=page.theme %}{%- endif -%}
 <style>
@@ -22,9 +22,10 @@ stylesheets: ['article']
     {%- endif -%}
 </style>
 <header>
-    <h1 {% if page.theme %}class="themed"{% endif %}>
-        <span>{%- if page.header.title -%}{{ page.header.title }}{%- else -%}{{ page.title }}{%- endif -%}</span>
+    <h1>
+        {%- if page.header.title -%}{{ page.header.title }}{%- else -%}{{ page.title }}{%- endif -%}
     </h1>
+    {% include event_navbar.html %}
 </header>
 <section>
     <div class="content">
@@ -32,3 +33,6 @@ stylesheets: ['article']
     </div>
     {% if page.fragment %}{% include fragment.html obj=page.fragment %}{% endif %}
 </section>
+<header>
+    {% include event_navbar.html %}
+</header>
