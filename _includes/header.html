@@ -1,0 +1,23 @@
+{%- if page.theme -%}{% include theme.html color=page.theme %}{%- endif -%}
+<style>
+    {%- if page.header.img -%}
+    header { background-image: url({{ page.header.img }}); }
+    {%- endif -%}
+    {%- if page.header.img_2k -%}
+    @media (min-width: 1367px) { header { background-image: url({{ page.header.img_2k }}); } }
+    {%- endif -%}
+    {%- if page.header.img_1k -%}
+    @media (min-width: 641px) and (max-width: 1367px) { header { background-image: url({{ page.header.img_1k }}); } }
+    {%- endif -%}
+    {%- if page.header.img_640 -%}
+    @media (min-width: 481px) and (max-width: 641px) { header { background-image: url({{ page.header.img_640 }}); } }
+    {%- endif -%}
+    {%- if page.header.img_480 -%}
+    @media (max-width: 481px) { header { background-image: url({{ page.header.img_480 }}); } }
+    {%- endif -%}
+</style>
+<header>
+    <h1 {% if page.theme %}class="themed"{% endif %}>
+        <span>{%- if page.header.title -%}{{ page.header.title }}{%- else -%}{{ page.title }}{%- endif -%}</span>
+    </h1>
+</header>

@@ -15,18 +15,18 @@ excerpt: >-
 Quando accogliamo questo amore il nostro cuore inizia a cambiare e questa è la vittoria disarmata con cui il Signore vince nella storia.
 
 <nav class="inline-navbar">
-    <a href="volontariato_montesacro_2018.pdf">Scarica il volantino</a>
+    <a download href="volontariato_montesacro_2018.pdf">Scarica il volantino</a>
 </nav>
 
 ## Il programma
 
 Durante la festa, per tre giorni (venerdì 21, sabato 22 e domenica 23 settembre), piccole e grandi [associazioni di volontariato](#le-associazioni) impegnate su molti fronti incontreranno la gente del quartiere nella cornice di piazza Sempione. In piazza saranno organizzati anche tornei, laboratori e giochi per bambini.
 
-Contemporaneamente sarà possibile visitare [varie mostre](mostre) a tema artistico e di fede. Saranno esposte le foto dei partecipanti al concorso fotografico 2018. A partire da sabato 22 e fino alla fine della festa sarà esposta la mostra &ldquo;Giovani amici di Dio&rdquo; preparata dal [Centro culturale San Paolo di Vicenza](http://www.centroculturalesanpaolo.org/centri-locali/vicenza/){: target="_blank"}. Alcuni volontari saranno disponibili gratuitamente per effettuare visite guidate.
+Contemporaneamente sarà possibile visitare [varie mostre](mostre#header) a tema artistico e di fede. Saranno esposte le foto dei partecipanti al concorso fotografico 2018. A partire da sabato 22 e fino alla fine della festa sarà esposta la mostra &ldquo;Giovani amici di Dio&rdquo; preparata dal [Centro culturale San Paolo di Vicenza](http://www.centroculturalesanpaolo.org/centri-locali/vicenza/){: target="_blank"}. Alcuni volontari saranno disponibili gratuitamente per effettuare visite guidate.
 
-Nel corso dei tre giorni si terranno [alcuni incontri speciali](incontri) su questioni sociali, volontariato, lavoro, e fede con testimonianze, dibattiti e presentazioni di libri. Inoltre ogni giorno sarà possibile assistere a [concerti e spettacoli](spettacoli) di vario genere.
+Nel corso dei tre giorni si terranno [alcuni incontri speciali](incontri#header) su questioni sociali, volontariato, lavoro, e fede con testimonianze, dibattiti e presentazioni di libri. Inoltre ogni giorno sarà possibile assistere a [concerti e spettacoli](spettacoli#header) di vario genere.
 
-In particolare sabato 22 alle ore 21 sarà in concerto la [Shamrock Band](https://shamrockband.weebly.com){: target="_blank"}; domenica 23 nel pomeriggio sarà possibile assistere a una rievocazione interattiva della scuola dei gladiatori, rivolta ai bambini, a cura del [Gruppo Storico Romano](http://www.gruppostoricoromano.it){: target="_blank"}; più tardi [Pierluigi Bartolomei](http://www.attivamentelodi.it/pierluigi_bartolomei.html){: target="_blank"} presenterà il suo spettacolo &ldquo;I cinque linguaggi dell'amore in famiglia&rdquo;. Maggiori informazioni nel [programma completo](programma).
+In particolare sabato 22 alle ore 21 sarà in concerto la [Shamrock Band](https://shamrockband.weebly.com){: target="_blank"}; domenica 23 nel pomeriggio sarà possibile assistere a una rievocazione interattiva della scuola dei gladiatori, rivolta ai bambini, a cura del [Gruppo Storico Romano](http://www.gruppostoricoromano.it){: target="_blank"}; più tardi [Pierluigi Bartolomei](http://www.attivamentelodi.it/pierluigi_bartolomei.html){: target="_blank"} presenterà il suo spettacolo &ldquo;I cinque linguaggi dell'amore in famiglia&rdquo;. Maggiori informazioni nel [programma completo](programma#header).
 
 La festa è patrocinata dal Terzo Municipio di Roma, dalla rivista &ldquo;Incontro alla realtà&rdquo; e dalla parrocchia dei Ss.&nbsp;Angeli Custodi.
 

@@ -1,0 +1,12 @@
+---
+layout: article
+main_class: article post
+---
+<h2>{{ page.title }}</h2>
+<a class="date" href="{{ page.url }}">Notizia del {% include date.html date=page.date %}</a>
+{{ content }}
+<nav class="inline-navbar">
+    {% if page.previous %}<a href="{{ page.previous.url }}"><span style="line-height: .5; font-size: 1.4em;">&lsaquo;</span>&nbsp;&nbsp;Precedente</a>{% endif %}
+    <a href="/notizie">Tutte le notizie</a>
+    {% if page.next %}<a href="{{ page.next.url }}">Successiva&nbsp;&nbsp;<span style="line-height: .5; font-size: 1.4em;">&rsaquo;</span></a>{% endif %}
+</nav>

@@ -13,6 +13,7 @@ nav.inline-navbar {
         margin-bottom: $inline-navbar-link-spacing;
         padding: ($inline-navbar-navbar-height - $inline-navbar-link-size - 4px)/2 $inline-navbar-link-padding;
 
+        height: $inline-navbar-link-size;
         line-height: $inline-navbar-link-size;
 
         border: 2px solid $inline-navbar-link-color;
@@ -50,6 +51,12 @@ nav#main-navbar {
     text-decoration: none;
 
     text-transform: uppercase;
+
+    z-index: 1000;
+
+    * {
+        z-index: 1000;
+    }
 
     @include no-select;
 
@@ -163,6 +170,7 @@ nav#main-navbar {
     }
 
     .menu-button {
+        position: relative;
         display: none;
         width: $navbar-height;
         height: $navbar-height;
@@ -199,9 +207,18 @@ nav#main-navbar {
     &.floating {
         position: absolute;
         top: 0;
+        z-index: auto;
 
         box-sizing: border-box;
         width: 100%;
+
+        * {
+            z-index: auto;
+        }
+
+        .menu-button {
+            position: static;
+        }
     }
 
     &.inverted {
@@ -288,7 +305,7 @@ nav#main-navbar {
                 }
 
                 &:hover, &:focus {
-                    color: $accent1;
+                    color: $accent2;
                     border-color: $bg;
                     background: $bg;
                 }
@@ -341,6 +358,7 @@ nav#main-navbar {
 
                 &:hover, &:focus {
                     color: $bg;
+                    background: none;
                     border-color: transparent;
                 }
             }

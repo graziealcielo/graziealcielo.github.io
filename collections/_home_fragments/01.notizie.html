@@ -24,6 +24,7 @@ links:
 
     #fragment-notizie li {
         list-style: none;
+        margin-bottom: 10px;
     }
 
     #fragment-notizie li a:hover {
@@ -40,10 +41,6 @@ links:
         font-variant: normal;
         font-weight: normal;
     }
-
-    #fragment-notizie .date::before {
-        content: '—';
-    }
 </style>
 <p>Ultime notizie dall'associazione &ldquo;Grazie al Cielo&rdquo;.</p>
 <ul>
@@ -52,6 +49,6 @@ links:
 {% endif %}
 {% assign latest_news = site.posts | slice: 0, 3 %}
 {% for post in latest_news %}
-    <li><a href="{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date">&nbsp;{%- include date.html date=post.date -%}</span></a></li>
+    <li><a href="{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date">&mdash;&nbsp;{%- include date.html date=post.date -%}</span></a></li>
 {% endfor %}
 </ul>

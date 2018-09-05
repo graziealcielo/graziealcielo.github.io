@@ -76,6 +76,35 @@ li {
     margin: 5px 0;
 }
 
+.post nav.inline-navbar:last-child {
+    margin: 0;
+    margin-top: 50px;
+}
+
+.post .content > h2:first-child {
+    margin-bottom: 0;
+}
+
+.post a.date {
+    display: block;
+    margin: 1em 0 2em;
+
+    font-size: 16px;
+
+    &:link,
+    &:active,
+    &:visited {
+        color: #000;
+        opacity: 0.5;
+        font-variant: normal;
+        font-weight: normal;
+    }
+
+    &:hover {
+        color: #000;
+    }
+}
+
 @media (max-width: 600px) {
     .content {
         h1, h2, blockquote {
@@ -83,5 +112,13 @@ li {
         }
 
         padding: 10px 20px 20px;
+    }
+
+    .post .date {
+        text-align: center;
+    }
+
+    .post nav.inline-navbar:last-child {
+        margin-top: 20px;
     }
 }

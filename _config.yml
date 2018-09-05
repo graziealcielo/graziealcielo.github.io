@@ -8,6 +8,9 @@ baseurl: ""
 url: "https://graziealcielo.github.io"
 github_username: graziealcielo
 
+paginate: 5
+paginate_path: "/notizie/pagina-:num"
+
 collections_dir: collections
 collections:
     - home_fragments
@@ -18,11 +21,25 @@ defaults:
           type: pages
       values:
           layout: page
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: post
+          theme: "#000"
+          header:
+              title: Notizie
+              img_2k: /img/news_header_2k.jpg
+              img_1k: /img/news_header_1k.jpg
+              img_640: /img/news_header_640.jpg
+              img_480: /img/news_header_480.jpg
+          permalink: /notizie/:categories/:year/:month/:day/:title
 
 # Build settings
 markdown: kramdown
 plugins:
     - jekyll-feed
+    - jekyll-paginate
 
 sass:
     style: :compressed

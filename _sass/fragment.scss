@@ -7,6 +7,8 @@ article.fragment {
     margin: 0;
     padding: $fragment-padding;
 
+    overflow: hidden;
+
     &::before {
         content: '';
         display: block;

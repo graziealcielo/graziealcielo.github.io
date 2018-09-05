@@ -27,7 +27,7 @@ fragment:
             src_small: /img/contatti_fragment_horz.jpg
             position: top left 10%
     content: >-
-        <style>@media (max-width: 1000px) { #contatti::after { background-size: auto 100%; } } @media (max-width: 480px) { #contatti::after { background-position: right; } }</style>
+        <style>#contatti { word-wrap: break-word; } @media (max-width: 1000px) { #contatti::after { background-size: auto 100%; } } @media (max-width: 480px) { #contatti::after { background-position: right; } }</style>
         <p><b class="no-select">Posta elettronica:<br></b><a href="mailto:associazionegraziealcielo@gmail.com">associazionegraziealcielo@gmail.com</a></p>
         <p><b class="no-select">Facebook:<br></b><a href="https://www.facebook.com/pg/associazionegraziealcielo">https://www.facebook.com/pg/associazionegraziealcielo</a></p>
 ---

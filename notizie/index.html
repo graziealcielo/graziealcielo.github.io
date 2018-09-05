@@ -1,0 +1,79 @@
+---
+layout: article
+title: Notizie
+theme: "#000"
+main_class: news
+header:
+    img_2k: /img/news_header_2k.jpg
+    img_1k: /img/news_header_1k.jpg
+    img_640: /img/news_header_640.jpg
+    img_480: /img/news_header_480.jpg
+stylesheet: news
+---
+<div class="timeline">
+{%- if paginator.previous_page -%}
+<a class="entry previous" href="{{ paginator.previous_page_path }}#bottom">
+    <span class="icon"></span>
+    <span class="label">Successive</span>
+    <span class="body"><span class="title">Notizie più recenti</span></span>
+</a>
+{%- endif -%}
+
+{%- assign first = true -%}
+{%- assign m = "0" -%}
+{%- assign y = "0" -%}
+
+{% for post in paginator.posts %}
+    {%- assign cm = post.date | date: "%-m" -%}
+    {%- assign cy = post.date | date: "%Y" -%}
+    {%- if m != cm or y != cy -%}
+        {%- assign m = cm -%}
+        {%- assign y = cy -%}
+        {%- if first and paginator.page == 1 -%}
+            {%- assign first = false -%}
+<article class="separator first">
+    <span class="icon"></span>
+    <span class="label">{%- include month.html month=m -%}&nbsp;{{ y }}</span>
+    <span class="body">Ultime&nbsp;notizie</span>
+</article>
+        {%- else -%}
+<br><article class="separator">
+    <span class="icon"></span>
+    <span class="label">{%- include month.html month=m -%}&nbsp;{{ y }}</span>
+    <span class="body">{% include month.html month=m %}&nbsp;{{ y }}</span>
+</article>
+        {%- endif -%}
+    {%- endif -%}
+<br><a class="entry" href="{{ post.url }}">
+    <span class="icon"></span>
+    <span class="label">{%- include date.html date=post.date -%}</span>
+    <span class="body">
+        <span class="title">{{ post.title }}</span>
+        <span class="excerpt">{{ post.excerpt | strip_html }}</span>
+    </span>
+</a>
+{% endfor %}
+
+{% unless paginator.posts %}
+{%- assign m = site.time | date: "%-m" -%}
+{%- assign y = site.time | date: "%Y" -%}
+<br><article class="separator first">
+    <span class="icon"></span>
+    <span class="label">{%- include month.html month=m -%}&nbsp;{{ y }}</span>
+    <span class="body">Ultime&nbsp;notizie</span>
+</article>
+<br><article class="entry empty">
+    <span class="icon"></span>
+    <span class="body"><span class="excerpt">(Non ci sono notizie al momento)</span></span>
+</article>
+{% endunless %}
+
+{%- if paginator.next_page -%}
+<br><a class="entry next" href="{{ paginator.next_page_path }}">
+    <span class="icon" id="bottom"></span>
+    <span class="label">Precedenti</span>
+    <span class="body"><span class="title">Notizie più vecchie</span></span>
+</a>
+{%- endif -%}
+
+</div>
