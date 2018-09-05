@@ -53,7 +53,7 @@ article.fragment {
         min-height: $fragment-content-min-height;
     }
 
-    & > nav.inline-navbar {
+    nav {
         text-align: left;
         margin: 0;
     }
