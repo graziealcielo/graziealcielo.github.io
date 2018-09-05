@@ -1,0 +1,36 @@
+---
+layout: event_article
+title: Il programma
+theme: "#e79957"
+main_class: schedule
+excerpt: >-
+    Programma completo dell'edizione 2018 della festa di piazza
+    &ldquo;Il volontariato incontra Montesacro&rsquo;. Dal 21 al 23 settembre
+    in piazza Sempione a Roma.
+stylesheet: schedule
+---
+<div class="timeline">
+{% for entry in site.data.schedule %}
+{% if entry.type == "separator" %}
+<article class="separator" id="{{ entry.title | slugify: 'latin' | prepend: "day-" }}">
+    <div class="icon"></div>
+    <div class="label">{{ entry.label | replace: " ", "&nbsp;" }}</div>
+    <div class="body">{{ entry.title | replace: " ", "&nbsp;" }}</div>
+</article>
+{% else %}
+<article class="entry" id="{{ entry.title | slugify: 'latin' | prepend: "event-" }}">
+    <div class="icon"></div>
+    <div class="label">{{ entry.time | replace: " ", "&nbsp;" }}</div>
+    <div class="body">
+        <div class="title"><span>{{ entry.title }}</span></div>
+        {% if entry.text %}
+        <div class="text">
+            {{ entry.text }}
+        </div>
+        {% endif %}
+        {% if entry.place %}<div class="info">ore {{ entry.time }} {{ entry.place }}</div>{% endif %}
+    </div>
+</article>
+{% endif %}
+{% endfor %}
+</div>

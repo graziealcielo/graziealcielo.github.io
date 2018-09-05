@@ -1,0 +1,275 @@
+---
+---
+@charset 'UTF-8';
+@import 'no-select';
+@import 'theme';
+@import 'event-theme';
+@import 'box-decoration-break';
+
+.schedule .content {
+    padding: 0 20px !important;
+}
+
+.timeline {
+    position: relative;
+    border-right: 6px dotted $accent1;
+    padding: 30px 0;
+    margin-right: 163px;
+}
+
+.timeline > br {
+    display: none;
+}
+
+.separator, .entry {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.separator {
+    margin-top: 80px;
+    @include no-select;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.body, .label {
+    padding: 0;
+    padding-right: 37px;
+}
+
+.body {
+    display: block;
+}
+
+.label {
+    display: inline-block;
+
+    position: absolute;
+    left: 100%;
+
+    margin: 0;
+    padding: 0;
+    margin-left: 43px;
+
+    width: 120px;
+    line-height: 50px;
+
+    text-align: left;
+    vertical-align: middle;
+
+    @include no-select;
+
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.icon {
+    display: inline-block;
+
+    position: absolute;
+    right: -28px;
+
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    background: $accent2;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    vertical-align: middle;
+
+    @include no-select;
+
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0);
+
+    -webkit-transition: box-shadow ease-in .3s;
+    transition: box-shadow ease-in .3s;
+}
+
+.separator, .entry {
+    &:hover .icon, &:focus .icon {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .4);
+
+        -webkit-transition: box-shadow ease-out .3s;
+        transition: box-shadow ease-out .3s;
+    }
+}
+
+.separator {
+    color: $accent1;
+}
+
+.separator .body {
+    vertical-align: middle;
+    text-transform: capitalize;
+
+    line-height: 50px;
+
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.separator .label {
+    text-transform: capitalize;
+}
+
+.separator .label {
+    font-weight: bold;
+}
+
+.separator .icon {
+    background-color: $accent1;
+    background-image: url(/img/calendar.svg);
+}
+
+.entry .body {
+    padding-top: 11px;
+}
+
+.entry .title {
+    display: block;
+
+    padding-left: 8px;
+    padding-bottom: 5px;
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+    color: #fff;
+
+    span {
+        background-color: $accent2;
+        padding: 5px 0;
+        line-height: 1.5;
+        box-shadow: -8px 0 0 0 $accent2, 8px 0 0 0 $accent2;
+        @include box-decoration-break(clone);
+    }
+
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.entry .text {
+    display: block;
+    font-size: .9em;
+    padding-top: 8px;
+}
+
+.entry .info {
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: bold;
+
+    padding-top: 8px;
+
+    text-transform: uppercase;
+
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.entry .label {
+    font-weight: bold;
+    color: $accent2;
+}
+
+.entry .icon {
+    background-image: url(/img/clock.svg);
+}
+
+@media (max-width: 639px) {
+    .timeline {
+        margin-right: 0;
+        border-right: none;
+    }
+
+    .icon {
+        position: static;
+        display: inline-block;
+    }
+
+    .separator {
+        text-align: center;
+
+        .label {
+            display: none;
+        }
+
+        .body {
+            display: inline-block;
+            padding: 0 15px;
+        }
+    }
+
+    .entry {
+        text-align: center;
+
+        .icon {
+            display: none;
+        }
+
+        .label {
+            position: static;
+            display: inline-block;
+            margin: 0;
+            margin-top: 3px;
+            padding: 5px;
+            width: auto;
+            line-height: normal;
+
+            color: #fff;
+            background: $accent2;
+
+            border-radius: 8px 8px 0 0;
+
+            &::before {
+                content: '';
+                display: inline-block;
+
+                margin-top: -2px;
+                margin-right: 2px;
+
+                width: 17px;
+                height: 17px;
+
+                vertical-align: middle;
+                background-image: url(/img/clock.svg);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .body {
+            padding: 0 20px;
+        }
+
+        .title {
+            padding-left: 0;
+        }
+
+        .text {
+            display: inline-block;
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width: 325px) {
+    .separator {
+        .body {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
