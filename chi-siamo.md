@@ -29,7 +29,7 @@ fragment:
     content: >-
         <style>#contatti { word-wrap: break-word; } @media (max-width: 1000px) { #contatti::after { background-size: auto 100%; } } @media (max-width: 480px) { #contatti::after { background-position: right; } }</style>
         <p><b class="no-select">Posta elettronica:<br></b><a href="mailto:associazionegraziealcielo@gmail.com">associazionegraziealcielo@gmail.com</a></p>
-        <p><b class="no-select">Facebook:<br></b><a href="https://www.facebook.com/pg/associazionegraziealcielo">https://www.facebook.com/pg/associazionegraziealcielo</a></p>
+        <p><b class="no-select">Facebook:<br></b><a href="https://www.facebook.com/assciazionegraziealcielo/" target="_blank">https://www.facebook.com/assciazionegraziealcielo</a></p>
 ---
 <style>@media (max-width: 400px) { #img-logo { display: block; float: none !important; margin: 0 auto !important; } }</style>
 ## La nostra storia
