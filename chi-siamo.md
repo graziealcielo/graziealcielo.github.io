@@ -30,13 +30,14 @@ fragment:
         <style>#contatti { word-wrap: break-word; } @media (max-width: 1000px) { #contatti::after { background-size: auto 100%; } } @media (max-width: 480px) { #contatti::after { background-position: right; } }</style>
         <p><b class="no-select">Posta elettronica:<br></b><a href="mailto:associazionegraziealcielo@gmail.com">associazionegraziealcielo@gmail.com</a></p>
         <p><b class="no-select">Facebook:<br></b><a href="https://www.facebook.com/assciazionegraziealcielo/" target="_blank">https://www.facebook.com/assciazionegraziealcielo</a></p>
+        <p><b class="no-select">YouTube:<br></b><a href="https://www.youtube.com/channel/UCMtiPb-0WCngWvJ3EmmaHwA" target="_blank">Associazione Culturale Grazie Al Cielo</a>
 ---
 ## La nostra storia
 
   > &laquo;La carità sarà sempre necessaria, anche nella società più giusta&raquo; ---&nbsp;<span class="no-hyphens">Benedetto&nbsp;XVI</span>
 
   ![Il logo dell'associazione](/assets/img/logo.png){:class="right center-at-500" width="160" height="160"}
-  
+
 Dall'amicizia tra alcuni universitari fuorise­de, giovani lavoratori e famiglie del quartiere di Montesacro a Roma, è nata un'associazione no-profit dal nome &ldquo;Grazie al Cielo&rdquo;.
 
 Attraverso questa compagnia, ognuno ha imparano a ride­stare nel cuore il desiderio di bello, di giusto, di vero, di felicità e a capire che &laquo;solo Cristo ci salva non a dispetto della nostra umanità, ma attra­verso di essa&raquo; _(Benedetto XVI)_. Siamo consapevoli che il Cristianesimo non è una dottrina ma un avvenimento, un incon­tro con una Persona, e da quest'incontro nasce un amore, un'amicizia, delle opere. Questa occasione può essere per la nostra fede non un altro fardello da aggiungere ai già numerosi problemi della vita, ma la pos­sibilità per accorgerci di una bellezza più grande, un nuovo inizio che spalanca il cuore alla realtà.

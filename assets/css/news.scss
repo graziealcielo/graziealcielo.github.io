@@ -169,6 +169,11 @@ a.entry {
     border-bottom: 2px solid #000;
 }
 
+.entry.facebook .icon {
+    background-image: url(/assets/img/fblogo.svg);
+    background-size: 17px 17px;
+}
+
 .entry.previous .icon {
     background-image: url(/assets/img/chevron-up.svg);
 }
@@ -240,10 +245,32 @@ a.entry {
         .label {
             position: static;
             display: inline-block;
-            margin: 8px 0;
-            padding: 0;
+            margin: 8px;
+            padding: 4px 10px;
             width: auto;
             line-height: normal;
+
+            color: #fff;
+            background: #000;
+
+            border-radius: 15px;
+
+            &::before {
+                content: '';
+                display: inline-block;
+
+                margin-top: -3px;
+                margin-right: 4px;
+
+                width: 18px;
+                height: 18px;
+
+                vertical-align: middle;
+                background-image: url(/assets/img/news.svg);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
         }
 
         .body {
@@ -256,7 +283,7 @@ a.entry {
         }
     }
 
-    .previous, .next {
+    .facebook, .previous, .next {
         text-align: center;
 
         .icon {
@@ -282,7 +309,7 @@ a.entry {
 }
 
 @media (max-width: 325px) {
-    .separator, .previous, .next {
+    .separator, .facebook, .previous, .next {
         .body {
             width: 100%;
             padding-left: 0;
@@ -290,7 +317,7 @@ a.entry {
         }
     }
 
-    .previous, .next {
+    .facebook, .previous, .next {
         .icon {
             margin-bottom: 0;
         }

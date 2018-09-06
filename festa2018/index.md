@@ -26,7 +26,7 @@ Contemporaneamente sarà possibile visitare [varie mostre](mostre) a tema artist
 
 Nel corso dei tre giorni si terranno [alcuni incontri speciali](incontri) su questioni sociali, volontariato, lavoro, e fede con testimonianze, dibattiti e presentazioni di libri. Inoltre ogni giorno sarà possibile assistere a [concerti e spettacoli](spettacoli) di vario genere.
 
-In particolare sabato 22 alle ore 21 sarà in concerto la [Shamrock Band](https://shamrockband.weebly.com){: target="_blank"}; domenica 23 nel pomeriggio sarà possibile assistere a una rievocazione interattiva della scuola dei gladiatori, rivolta ai bambini, a cura del [Gruppo Storico Romano](http://www.gruppostoricoromano.it){: target="_blank"}; più tardi [Pierluigi Bartolomei](http://www.attivamentelodi.it/pierluigi_bartolomei.html){: target="_blank"} presenterà il suo spettacolo &ldquo;I cinque linguaggi dell'amore in famiglia&rdquo;. Maggiori informazioni nel [programma completo](programma).
+In particolare sabato 22 alle ore 21 sarà in concerto la [Shamrock Band](https://shamrockband.weebly.com){: target="_blank"}; domenica 23 nel pomeriggio sarà possibile assistere a una rievocazione interattiva della scuola dei gladiatori, rivolta ai bambini, a cura del [Gruppo Storico Romano](https://www.facebook.com/GruppoStoricoRomano){: target="_blank"}; più tardi [Pierluigi Bartolomei](http://www.attivamentelodi.it/pierluigi_bartolomei.html){: target="_blank"} presenterà il suo spettacolo &ldquo;I cinque linguaggi dell'amore in famiglia&rdquo;. Maggiori informazioni nel [programma completo](programma).
 
 La festa è patrocinata dal Terzo Municipio di Roma, dalla rivista &ldquo;Incontro alla realtà&rdquo; e dalla parrocchia dei Ss.&nbsp;Angeli Custodi.
 

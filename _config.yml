@@ -42,7 +42,7 @@ defaults:
 layouts_dir    : _library/layouts
 includes_dir   : _library/includes
 data_dir       : _data
-collections_dir: _collections
+collections_dir: collections
 sass:
     sass_dir: _library/sass
     style: :compressed
