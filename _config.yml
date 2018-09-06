@@ -1,21 +1,24 @@
-title: Associazione Grazie al Cielo
-author: Associazione Grazie al Cielo
-email: associazionegraziealcielo@gmail.com
-description: >-
+title          : Associazione Grazie al Cielo
+author         : Associazione Grazie al Cielo
+email          : associazionegraziealcielo@gmail.com
+description    : >-
   Solidarietà tra famiglie ed universitari e giovani lavoratori fuorisede.
   Collaborazione nella redazione della rivista "Incontro alla Realtà"
-baseurl: ""
-url: "https://graziealcielo.github.io"
+baseurl        : ""
+url            : "https://graziealcielomontesacro.it"
 github_username: graziealcielo
 
-paginate: 5
+paginate     : 5
 paginate_path: "/notizie/pagina-:num"
 
-collections_dir: collections
 collections:
     - home_fragments
 
 defaults:
+    - scope:
+          path: assets
+      values:
+          layout: ~
     - scope:
           path: ""
           type: pages
@@ -29,18 +32,29 @@ defaults:
           theme: "#000"
           header:
               title: Notizie
-              img_2k: /img/news_header_2k.jpg
-              img_1k: /img/news_header_1k.jpg
-              img_640: /img/news_header_640.jpg
-              img_480: /img/news_header_480.jpg
+              img_2k: /assets/img/news_header_2k.jpg
+              img_1k: /assets/img/news_header_1k.jpg
+              img_640: /assets/img/news_header_640.jpg
+              img_480: /assets/img/news_header_480.jpg
           permalink: /notizie/:categories/:year/:month/:day/:title
 
 # Build settings
+exclude:
+    - data
+    - library
+    - Gemfile
+    - Gemfile.lock
+
+layouts_dir    : library/layouts
+includes_dir   : library/includes
+data_dir       : data
+collections_dir: collections
+sass:
+    sass_dir: library/sass
+    style: :compressed
+
 markdown: kramdown
 plugins:
     - jekyll-feed
     - jekyll-paginate
     - jekyll-redirect-from
-
-sass:
-    style: :compressed

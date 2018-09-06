@@ -4,10 +4,10 @@ title: Chi siamo
 theme: "#08c"
 header:
     title: Associazione &ldquo;Grazie al Cielo&rdquo;
-    img_2k: /img/chi_siamo_banner_2k.jpg
-    img_1k: /img/chi_siamo_banner_1k.jpg
-    img_640: /img/chi_siamo_banner_640.jpg
-    img_480: /img/chi_siamo_banner_480.jpg
+    img_2k: /assets/img/chi_siamo_banner_2k.jpg
+    img_1k: /assets/img/chi_siamo_banner_1k.jpg
+    img_640: /assets/img/chi_siamo_banner_640.jpg
+    img_480: /assets/img/chi_siamo_banner_480.jpg
 excerpt: >-
     <p>L'associazione no-profit &ldquo;Grazie al Cielo&rdquo; nasce dall'amicizia
     tra alcuni universitari fuorise­de, giovani lavoratori e famiglie del quartiere
@@ -20,11 +20,11 @@ fragment:
     theme: "#08c"
     img:
         vert:
-            src: /img/contatti_fragment_vert.jpg
+            src: /assets/img/contatti_fragment_vert.jpg
             position: left
         horz:
-            src: /img/contatti_fragment_horz.jpg
-            src_small: /img/contatti_fragment_horz.jpg
+            src: /assets/img/contatti_fragment_horz.jpg
+            src_small: /assets/img/contatti_fragment_horz.jpg
             position: top left 10%
     content: >-
         <style>#contatti { word-wrap: break-word; } @media (max-width: 1000px) { #contatti::after { background-size: auto 100%; } } @media (max-width: 480px) { #contatti::after { background-position: right; } }</style>
@@ -36,7 +36,7 @@ fragment:
 
   > &laquo;La carità sarà sempre necessaria, anche nella società più giusta&raquo; ---&nbsp;<span class="no-hyphens">Benedetto&nbsp;XVI</span>
 
-  ![Il logo dell'associazione](/img/logo.png){: id="img-logo" style="float: right; width: 160px; height: 160px; margin: 0 0 15px 20px;"}
+  ![Il logo dell'associazione](/assets/img/logo.png){: id="img-logo" style="float: right; width: 160px; height: 160px; margin: 0 0 15px 20px;"}
   
 Dall'amicizia tra alcuni universitari fuorise­de, giovani lavoratori e famiglie del quartiere di Montesacro a Roma, è nata un'associazione no-profit dal nome &ldquo;Grazie al Cielo&rdquo;.
 
