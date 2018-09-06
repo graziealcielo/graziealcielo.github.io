@@ -11,6 +11,7 @@
 .timeline {
     position: relative;
     border-right: 6px dotted #444;
+    border-image: url(/img/dot-gray.svg) 0 100% 0 0 repeat;
     padding: 30px 0;
     margin-right: 243px;
     min-height: 50vh;
