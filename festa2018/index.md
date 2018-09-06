@@ -33,10 +33,11 @@ La festa è patrocinata dal Terzo Municipio di Roma, dalla rivista &ldquo;Incont
 <nav class="inline-navbar">
     <a href="programma">Leggi il programma</a>
 </nav>
-
+<!--
 ## Le associazioni
 
 Di seguito l'elenco delle associazioni partecipanti che sarà possibile incontrare in piazza:
 
   - [Associazione &ldquo;Grazie al Cielo&rdquo;](/chi-siamo) -- solidarietà tra famiglie, studenti fuori sede e giovani lavoratori; collaborazione alla redazione di &ldquo;Incontro alla realtà&rdquo;.
   - Altre associazioni...
+-->
