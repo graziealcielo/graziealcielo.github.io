@@ -76,6 +76,23 @@ li {
     margin: 5px 0;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+
+    &.left {
+        display: inline-block;
+        float: left;
+        margin: 0 20px 15px 0;
+    }
+
+    &.right {
+        display: inline-block;
+        float: right;
+        margin: 0 0 15px 20px;
+    }
+}
+
 .post nav.inline-navbar:last-child {
     margin: 0;
     margin-top: 50px;
@@ -107,11 +124,17 @@ li {
 
 @media (max-width: 600px) {
     .content {
+        padding: 10px 20px 20px;
+
         h1, h2, blockquote {
             text-align: center;
         }
 
-        padding: 10px 20px 20px;
+        img.center-at-600 {
+            display: block;
+            float: none;
+            margin: 0 auto;
+        }
     }
 
     .post .date {
@@ -120,5 +143,21 @@ li {
 
     .post nav.inline-navbar:last-child {
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .content img.center-at-500 {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .content img.center-at-400 {
+        display: block;
+        float: none;
+        margin: 0 auto;
     }
 }

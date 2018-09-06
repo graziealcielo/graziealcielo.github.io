@@ -31,12 +31,11 @@ fragment:
         <p><b class="no-select">Posta elettronica:<br></b><a href="mailto:associazionegraziealcielo@gmail.com">associazionegraziealcielo@gmail.com</a></p>
         <p><b class="no-select">Facebook:<br></b><a href="https://www.facebook.com/assciazionegraziealcielo/" target="_blank">https://www.facebook.com/assciazionegraziealcielo</a></p>
 ---
-<style>@media (max-width: 400px) { #img-logo { display: block; float: none !important; margin: 0 auto !important; } }</style>
 ## La nostra storia
 
   > &laquo;La carità sarà sempre necessaria, anche nella società più giusta&raquo; ---&nbsp;<span class="no-hyphens">Benedetto&nbsp;XVI</span>
 
-  ![Il logo dell'associazione](/assets/img/logo.png){: id="img-logo" style="float: right; width: 160px; height: 160px; margin: 0 0 15px 20px;"}
+  ![Il logo dell'associazione](/assets/img/logo.png){:class="right center-at-500" width="160" height="160"}
   
 Dall'amicizia tra alcuni universitari fuorise­de, giovani lavoratori e famiglie del quartiere di Montesacro a Roma, è nata un'associazione no-profit dal nome &ldquo;Grazie al Cielo&rdquo;.
 
