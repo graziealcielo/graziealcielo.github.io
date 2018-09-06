@@ -283,7 +283,7 @@ nav#main-navbar {
             transition: color linear .4s;
         }
 
-        .button {
+        .button, &.inverted .button {
             display: block;
             margin: 0;
             margin-bottom: 2*$navbar-spacing;

@@ -93,6 +93,26 @@ li {
     }
 }
 
+.video {
+    margin: 0 auto;
+    max-width: 560px;
+
+    & > div {
+        position: relative;
+
+        padding-bottom: 56.25%;
+        height: 0;
+
+        & > * {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
 .post nav.inline-navbar:last-child {
     margin: 0;
     margin-top: 50px;
