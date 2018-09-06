@@ -39,18 +39,12 @@ defaults:
           permalink: /notizie/:categories/:year/:month/:day/:title
 
 # Build settings
-exclude:
-    - data
-    - library
-    - Gemfile
-    - Gemfile.lock
-
-layouts_dir    : library/layouts
-includes_dir   : library/includes
-data_dir       : data
-collections_dir: collections
+layouts_dir    : _library/layouts
+includes_dir   : _library/includes
+data_dir       : _data
+collections_dir: _collections
 sass:
-    sass_dir: library/sass
+    sass_dir: _library/sass
     style: :compressed
 
 markdown: kramdown
