@@ -3,18 +3,20 @@
         $prefix: "(" + $prefix + ") and ";
     }
     @return "#{$prefix}(max-#{$key}: #{$max-retina}),\
-             #{$prefix}(max-#{$key}: #{$max}) and (-webkit-max-resolution: 1dppx),\
-             #{$prefix}(max-#{$key}: #{$max}) and (        max-resolution: 1dppx),\
-             #{$prefix}(max-#{$key}: #{$max}) and (        max-resolution: 96dpi)";
+             #{$prefix}(max-#{$key}: #{$max}) and (-webkit-max-device-pixel-ratio: 1),\
+             #{$prefix}(max-#{$key}: #{$max}) and (        -webkit-max-resolution: 1dppx),\
+             #{$prefix}(max-#{$key}: #{$max}) and (                max-resolution: 1dppx),\
+             #{$prefix}(max-#{$key}: #{$max}) and (                max-resolution: 96dpi)";
 }
 
 @function query-min-with-retina($key, $min, $min-retina, $prefix: "") {
     @if ($prefix != "") {
         $prefix: "(" + $prefix + ") and ";
     }
-    @return "#{$prefix}(min-#{$key}: #{$min-retina}) and (-webkit-min-resolution: 1.1dppx),\
-             #{$prefix}(min-#{$key}: #{$min-retina}) and (        min-resolution: 1.1dppx),\
-             #{$prefix}(min-#{$key}: #{$min-retina}) and (        min-resolution: 97dpi),\
+    @return "#{$prefix}(min-#{$key}: #{$min-retina}) and (-webkit-min-device-pixel-ratio: 1.1),\
+             #{$prefix}(min-#{$key}: #{$min-retina}) and (        -webkit-min-resolution: 1.1dppx),\
+             #{$prefix}(min-#{$key}: #{$min-retina}) and (                min-resolution: 1.1dppx),\
+             #{$prefix}(min-#{$key}: #{$min-retina}) and (                min-resolution: 97dpi),\
              #{$prefix}(min-#{$key}: #{$min})";
 }
 
@@ -22,12 +24,14 @@
     @if ($prefix != "") {
         $prefix: "(" + $prefix + ") and ";
     }
-    @return "#{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (-webkit-min-resolution: 1.1dppx),\
-             #{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (        min-resolution: 1.1dppx),\
-             #{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (        min-resolution: 97dpi),\
-             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (-webkit-max-resolution: 1dppx),\
-             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (        max-resolution: 1dppx),\
-             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (        max-resolution: 96dpi)";
+    @return "#{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (-webkit-min-device-pixel-ratio: 1),\
+             #{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (        -webkit-min-resolution: 1.1dppx),\
+             #{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (                min-resolution: 1.1dppx),\
+             #{$prefix}(min-#{$key}: #{$min-retina}) and (max-#{$key}: #{$max-retina}) and (                min-resolution: 97dpi),\
+             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (-webkit-max-device-pixel-ratio: 1),\
+             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (        -webkit-max-resolution: 1dppx),\
+             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (                max-resolution: 1dppx),\
+             #{$prefix}(min-#{$key}: #{$min}) and (max-#{$key}: #{$max}) and (                max-resolution: 96dpi)";
 }
 
 @function query-splash-size($width, $height, $prev-width: "", $prev-height: "", $last: false) {
