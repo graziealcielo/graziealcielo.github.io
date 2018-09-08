@@ -40,14 +40,14 @@
   label: sabato 22
   title: sabato 22 settembre
 
-- time: "09:00"
+- time: "9:00"
   title: Esposizione del Concorso Fotografico
   text: >-
       Esposizione delle foto del concorso fotografico 2018.
       Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
   place: gazebo in piazza sempione
 
-- time: "09:00"
+- time: "9:00"
   title: Tornei di biliardino e ping pong
   text: >-
       Inizio del torneo di <b>Biliardino</b> e del torneo di <b>Ping Pong</b>.
@@ -64,7 +64,7 @@
   title: Mostra pittorica
   text: >-
       Esposizione di <b>quadri di artisti locali</b>. Sarà presente il liceo
-      artistico I.I.S. via Sarandì intervenendo con giovani artisti
+      artistico <b>I.I.S. via Sarandì</b> intervenendo con giovani artisti
       alunni dell'istituto scolastico.
   place: gazebo in piazza sempione
 
@@ -118,6 +118,7 @@
   text: >-
       Concerto di canzoni e musica tradizionale irlandese
   place: palcoscenico in piazza sempione
+
 
 - type: separator
   label: domenica 23
@@ -188,6 +189,9 @@
 
 - time: "20:30"
   title: Premiazione del Concorso Fotografico
+  text: >-
+      Premiazione dei vincitori del concorso fotografico 2018.
+      Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
   place: platea in piazza sotto il municipio
 
 - time: "21:00"
