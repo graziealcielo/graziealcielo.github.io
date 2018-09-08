@@ -17,7 +17,13 @@
       dalle 10:00 alle 13:00 e dalle 16:00 alle 21:00.
   place: piazza sempione angolo chiesa
 
-- time: "20:00"
+- time: "19:45"
+  title: "Concerto: Coro degli Alpini"
+  text: >-
+      Concerto di canti popolari degli Alpini del coro ANA di Roma.
+  place: chiesa ss. angeli custodi
+
+- time: "20:30"
   title: Cena in compagnia
   place: sale parrocchiali ss. angeli custodi
 
@@ -27,13 +33,7 @@
       Incontro con <b>don Claudio Burgio</b>, cappellano del Carcere Minorile
       di Milano; è stato invitato <b>Alfonso De Nicola</b>. Coordina la serata
       il giornalista <b>Alessandro Banfi</b>.
-  place: teatro parrocchia ss. angeli custodi
-
-- time: "22:00"
-  title: "Concerto: Coro degli Alpini"
-  text: >-
-      Concerto di canti popolari degli Alpini del coro ANA di Roma.
-  place: teatro parrocchia ss. angeli custodi
+  place: teatro parrocchiale ss. angeli custodi
 
 
 - type: separator
@@ -42,6 +42,9 @@
 
 - time: "09:00"
   title: Esposizione del Concorso Fotografico
+  text: >-
+      Esposizione delle foto del concorso fotografico 2018.
+      Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
   place: gazebo in piazza sempione
 
 - time: "09:00"
@@ -80,11 +83,21 @@
       con i maestri presepisti di Montesacro.
   place: chiedere informazioni in piazza
 
-- time: "17:00"
-  title: Spazio bimbi
-  text: Laboratorio fiabe e teatro.
-  place: chiedere informazioni in piazza
+- time: "16:00"
+  title: Educazione cinofila
+  text: >-
+      Dimostrazioni pratiche di <b>educazione cinofila</b> a cura di Fabrizio
+      dell'associazione &ldquo;Animali in famiglia&rdquo;
+  place: luogo di ritrovo annunciato al momento
 
+- time: "16:30"
+  title: "Concerto: Organetto mondiale"
+  text: >-
+      Esibizione del campione del mondo di organetto <b>Fabio Coladarci</b>
+      con i suoi allievi.
+  place: palcoscenico in piazza sempione
+
+# 15
 - time: "17:00"
   title: Incontro testimonianza &ldquo;Giovani amici di Dio&rdquo;
   text: >-
@@ -95,7 +108,8 @@
 - time: "19:00"
   title: Incontro &ldquo;Lavorare per cosa, lavorare per chi&rdquo;
   text: >-
-      Coordina il <b>dott. Carlo Regogliosi</b>, invitati <b>Sergio Vergani</b>
+      Coordina il <b>prof. Carlo Regogliosi</b> (docente di economia
+      all'Università degli Studi Roma 3), invitati <b>Sergio Vergani</b>
       (direttore generale Fides spa) e <b>Paolo Stern</b> (consulente del
       lavoro, presidente network <b>Stern e Zanin</b>).
   place: platea in piazza sotto il municipio
@@ -151,8 +165,8 @@
 - time: "16:00-17:00"
   title: Gruppo Storico Romano
   text: >-
-      Rievocazione storica della scuola dei gladiatori con il <b>Gruppo
-      Storico Romano</b>. Breve lezione di scherma romana per bambini.
+      Rievocazione storica dell'antica Roma con una legione
+      di 20 persone del <b>Gruppo Storico Romano</b>.
   place: piazza sempione
 
 - time: "17:30"
@@ -170,11 +184,21 @@
   place: piazza sempione
 
 - time: "19:30"
-  title: Incontro &ldquo;Realtà e giovinezza. La sfida&rdquo;
-  text: >-
-      È stato invitato <b>don Eugenio Nembrini</b>.
-  place: piazza sempione
+  title: "Concerto: Benedetto Chieffo"
+  place: palcoscenico in piazza sempione
 
 - time: "20:30"
   title: Premiazione del Concorso Fotografico
-  place: piazza sempione
+  place: platea in piazza sotto il municipio
+
+- time: "21:00"
+  title: Incontro &ldquo;Realtà e giovinezza. La sfida&rdquo;
+  text: >-
+      Sarà presente <b>don Sergio Ghio</b>.
+  place: platea in piazza sotto il municipio
+
+- time: "22:30"
+  title: Lotteria 2018
+  text: >-
+      Estrazione vincitori della sottoscrizione a premi 2018.
+  place: platea in piazza sotto il municipio
