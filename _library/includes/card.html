@@ -3,6 +3,21 @@
 <article class="card {{ include.obj.class }}" id="{{ card_id }}">
     <style>
         {%- if include.obj.theme -%}
+        #{{ card_id }}:target {
+            -webkit-animation: {{ card_id }}-animation 1s ease-out 0s infinite alternate;
+            animation: {{ card_id }}-animation 1s ease-out 0s infinite alternate;
+        }
+
+        @-webkit-keyframes {{ card_id }}-animation {
+            from { box-shadow: 0 5px 15px 5px rgba(0, 0, 0, .5); }
+            to { box-shadow: 0 5px 15px 5px {{ include.obj.theme }}; }
+        }
+
+        @keyframes {{ card_id }}-animation {
+            from { box-shadow: 0 5px 15px 5px rgba(0, 0, 0, .5); }
+            to { box-shadow: 0 5px 15px 5px {{ include.obj.theme }}; }
+        }
+
         #{{ card_id }}::before {
             background: {{ include.obj.theme }};
         }
