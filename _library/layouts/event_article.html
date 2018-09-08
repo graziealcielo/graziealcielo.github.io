@@ -1,21 +1,10 @@
 ---
-layout: page
+layout: event_page
 main_class: article event-page
-stylesheets: ['article', 'event']
 ---
-{%- if page.theme -%}{% include theme.html color=page.theme %}{%- endif -%}
-<header id="header">
-    <h1>
-        {%- if page.header.title -%}{{ page.header.title }}{%- else -%}{{ page.title }}{%- endif -%}
-    </h1>
-    {% include event_navbar.html %}
-</header>
 <section>
     <div class="content">
         {{ content }}
     </div>
     {% if page.fragment %}{% include fragment.html obj=page.fragment %}{% endif %}
 </section>
-<header>
-    {% include event_navbar.html %}
-</header>

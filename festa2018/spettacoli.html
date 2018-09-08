@@ -1,0 +1,11 @@
+---
+layout: event_page
+title: Spettacoli - Il volontariato incontra Montesacro
+header:
+    title: Spettacoli
+---
+<section class="card-grid" style="margin: 0 auto;">
+{% for card in site.spettacoli %}
+    {% include card.html obj=card %}
+{% endfor %}
+</section>

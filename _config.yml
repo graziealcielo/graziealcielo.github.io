@@ -13,6 +13,10 @@ paginate_path: "/notizie/pagina-:num"
 
 collections:
     - home_fragments
+    - incontri
+    - mostre
+    - giochi
+    - spettacoli
 
 defaults:
     - scope:

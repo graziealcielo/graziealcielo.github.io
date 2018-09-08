@@ -1,7 +1,7 @@
 @import 'theme';
 @import 'transform';
 
-article.fragment {
+.fragment {
     position: relative;
 
     margin: 0;
@@ -55,7 +55,7 @@ article.fragment {
         min-height: $fragment-content-min-height;
     }
 
-    nav {
+    nav.inline-navbar {
         text-align: left;
         margin: 0;
     }
@@ -67,7 +67,7 @@ article.fragment {
 }
 
 @media (max-width: 1000px) {
-    article.fragment {
+    .fragment {
         padding: $fragment-padding-vertical;
 
         &::before {
@@ -90,21 +90,21 @@ article.fragment {
 }
 
 @media (max-width: 800px) {
-    article.fragment {
+    .fragment {
         padding: $fragment-padding-vertical-half;
     }
 }
 
 @media (max-width: 700px) {
-    article.fragment {
-        h1, nav {
+    .fragment {
+        h1, nav.inline-navbar {
             text-align: center;
         }
     }
 }
 
 @media (max-width: 400px) {
-    article.fragment {
+    .fragment {
         padding-left: 10px;
         padding-right: 10px;
 

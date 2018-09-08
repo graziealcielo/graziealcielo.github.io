@@ -1,0 +1,11 @@
+---
+layout: event_page
+title: Mostre - Il volontariato incontra Montesacro
+header:
+    title: Mostre
+---
+<section class="card-grid" style="margin: 0 auto;">
+{% for card in site.mostre %}
+    {% include card.html obj=card %}
+{% endfor %}
+</section>

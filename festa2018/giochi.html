@@ -1,0 +1,11 @@
+---
+layout: event_page
+title: Giochi - Il volontariato incontra Montesacro
+header:
+    title: Giochi
+---
+<section class="card-grid" style="margin: 0 auto;">
+{% for card in site.giochi %}
+    {% include card.html obj=card %}
+{% endfor %}
+</section>

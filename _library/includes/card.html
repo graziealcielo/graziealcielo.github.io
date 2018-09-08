@@ -1,0 +1,43 @@
+{%- assign card_id_default = include.obj.title | slugify: 'latin' -%}
+{%- assign card_id = include.obj.element_id | default: card_id_default -%}
+<article class="card {{ include.obj.class }}" id="{{ card_id }}">
+    <style>
+        {%- if include.obj.theme -%}
+        #{{ card_id }}::before {
+            background: {{ include.obj.theme }};
+        }
+
+        #{{ card_id }} h1 > * {
+            box-shadow: -8px 0 0 0 {{ include.obj.theme }}, 8px 0 0 0 {{ include.obj.theme }};
+            background: {{ include.obj.theme }};
+        }
+
+        #{{ card_id }} nav a {
+            color: {{ include.obj.theme }};
+            border-color: {{ include.obj.theme }};
+        }
+
+        #{{ card_id }} nav a:hover,
+        #{{ card_id }} nav a:focus {
+            color: #fff;
+            background: {{ include.obj.theme }};
+        }
+        {%- endif -%}
+        {%- if include.obj.img -%}
+        #{{ card_id }}::after {
+            display: block;
+            background-image: url({{ include.obj.img.src }});
+            {%- if include.obj.img.position -%}background-position: {{ include.obj.img.position }};{%- endif -%}
+        }
+        {%- endif -%}
+    </style>
+    <h1><span>{{ include.obj.title }}</span></h1>
+    <div class="text">
+        {{ include.obj.content }}
+    </div>
+    <div class="time">{{ include.obj.time }}</div>
+    <div class="place">{{ include.obj.place }}</div>
+    <nav class="inline-navbar">
+        <a href="/festa2018/programma#{{ include.obj.anchor }}">Programma</a>
+    </nav>
+</article>

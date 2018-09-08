@@ -1,0 +1,16 @@
+---
+layout: page
+main_class: event-page
+stylesheets: ['event', 'article']
+---
+{%- if page.theme -%}{% include theme.html color=page.theme %}{%- endif -%}
+<header id="header">
+    <h1>
+        {%- if page.header.title -%}{{ page.header.title }}{%- else -%}{{ page.title }}{%- endif -%}
+    </h1>
+    {% include event_navbar.html %}
+</header>
+{{ content }}
+<header>
+    {% include event_navbar.html %}
+</header>

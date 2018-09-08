@@ -45,16 +45,20 @@ $inline-navbar-link-padding: 16px;
 $inline-navbar-link-spacing: 10px;
 $inline-navbar-link-weight: bold;
 
-/* Schede (fragments) */
+/* Schede grandi (fragments) */
 
 $fragment-padding: 100px 230px 100px 150px;
 $fragment-padding-vertical: 128px 100px 100px;
 $fragment-padding-vertical-half: 128px 50px 50px;
-
-$fragment-img-size: 200px 200px;
-
 $fragment-content-min-height: 84px;
 $fragment-content-spacing: 1.5em;
+
+/* Schede piccole (cards) */
+
+$card-margin: 30px;
+$card-padding: 128px 20px 20px;
+$card-width: 340px;
+$card-content-spacing: 1.5em;
 
 /* Footer (piede di pagina) */
 

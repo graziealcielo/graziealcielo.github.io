@@ -1,0 +1,118 @@
+@import 'theme';
+@import 'transform';
+
+.card {
+    position: relative;
+
+    margin: $card-margin;
+    padding: $card-padding;
+
+    max-width: $card-width;
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
+
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        display: block;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -100;
+
+        height: 50px;
+        background-color: $fg;
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 1);
+    }
+
+    &::after {
+        content: '';
+        display: none;
+
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        z-index: -150;
+
+        margin: 0;
+        padding: 0;
+
+        height: 100px;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, .5);
+    }
+
+    & > h1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .text {
+        margin: $card-content-spacing 0;
+        padding: 0;
+
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .time, .place {
+        margin: 0;
+        font-weight: bold;
+        font-variant: small-caps;
+        text-align: center;
+    }
+
+    nav.inline-navbar {
+        text-align: center;
+        margin: $card-content-spacing 0 0;
+    }
+}
+
+@function card-grid-width($cols, $margin: $card-margin) {
+    @return $cols*$card-width + ($cols - 1)*$margin;
+}
+
+.card-grid {
+    -webkit-columns: 3;
+    -webkit-column-gap: $card-margin;
+    columns: 3;
+    column-gap: $card-margin;
+
+    padding: $card-margin $card-margin 0;
+    max-width: card-grid-width(3);
+
+    .card {
+        margin: 0;
+        margin-bottom: $card-margin;
+    }
+}
+
+@media (max-width: card-grid-width(3) + 2*$card-margin) {
+    .card-grid {
+        -webkit-columns: 2;
+        columns: 2;
+        max-width: card-grid-width(2);
+    }
+}
+
+@media (max-width: card-grid-width(2) + 2*$card-margin) {
+    .card-grid {
+        -webkit-columns: 1;
+        columns: 1;
+        max-width: card-grid-width(1);
+    }
+}
+
+@media (max-width: 341px) {
+    .card-grid {
+        padding: 8px 8px 0;
+    }
+}
