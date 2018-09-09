@@ -87,11 +87,11 @@
   title: Educazione cinofila
   text: >-
       Dimostrazioni pratiche di <b>educazione cinofila</b> a cura di Fabrizio
-      dell'associazione &ldquo;Animali in famiglia&rdquo;
+      dell'associazione &ldquo;Animali in famiglia&rdquo;.
   place: luogo di ritrovo annunciato al momento
 
 - time: "16:30"
-  title: "Concerto: Organetto mondiale"
+  title: "Concerto: Fabio Coladarci"
   text: >-
       Esibizione del campione del mondo di organetto <b>Fabio Coladarci</b>
       con i suoi allievi.
@@ -178,13 +178,15 @@
   place: palcoscenico in piazza sempione
 
 - time: "18:30"
-  title: "Concerto: Commercialisti di Roma"
+  title: "Concerto: Coro dei Commercialisti"
   text: >-
       Concerto del coro Polifonico dei commercialisti di Roma.
   place: piazza sempione
 
 - time: "19:30"
   title: "Concerto: Benedetto Chieffo"
+  text: >-
+      Benedetto Chieffo canta le canzoni del cantautore italiano Claudio Chieffo.
   place: palcoscenico in piazza sempione
 
 - time: "20:30"
