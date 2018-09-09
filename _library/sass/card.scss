@@ -86,13 +86,19 @@
     columns: 3;
     column-gap: $card-margin;
 
-    margin-bottom: $card-margin;
     padding: $card-margin $card-margin 0;
     max-width: card-grid-width(3);
 
+    .card-grid-item {
+        margin: 0;
+        padding: 0 0 $card-margin;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
     .card {
         margin: 0;
-        margin-bottom: $card-margin;
     }
 }
 

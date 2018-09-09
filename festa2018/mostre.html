@@ -4,8 +4,10 @@ title: Mostre - Il volontariato incontra Montesacro
 header:
     title: Mostre
 ---
-<section class="card-grid" style="margin-left: auto; margin-right: auto;">
+<section class="card-grid" style="margin: 0 auto;">
 {% for card in site.mostre %}
-    {% include card.html obj=card %}
+    <div class="card-grid-item">
+        {% include card.html obj=card %}
+    </div>
 {% endfor %}
 </section>
