@@ -3,7 +3,7 @@ title: XV Edizione Concorso Presepi Montesacro
 ---
 Siete invitati alla premiazione del XV Concorso dei Presepi di Montesacro.
 
-![Elia e Giovanni Gagini, Adorazione dei Magi](/assets/img/varie/adorazione_magi_gagini.jpg)
+![Elia e Giovanni Gagini, Adorazione dei Magi](/assets/img/varie/adorazione_magi_gagini.jpg){:style="width: 100%; height: auto;"}
 
 > &ldquo;Provate a pensare a quella ragazza che se ne stava in casa ed ebbe
 > l’annuncio: la Madonna. Qualcosa di ultimamente irriconducibile agli
