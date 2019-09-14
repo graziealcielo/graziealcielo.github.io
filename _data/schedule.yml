@@ -18,22 +18,23 @@
       dalle 10:00 alle 13:00 e dalle 16:00 alle 21:00.
   place: piazza sempione angolo chiesa
 
-- time: "19:45"
-  title: "Concerto: Coro degli Alpini"
+- time: "20:00"
+  title: "Incontro: &ldquo;E vissero felici e contenti&rdquo;"
   text: >-
-      Concerto di canti popolari degli Alpini del coro ANA di Roma.
-  place: chiesa ss. angeli custodi
+      Incontro con il <b>dott. Roberto Marchesini</b> di Bologna. Spunti
+      di sopravvivenza per le giovani famiglie.
+  place: teatro parrocchiale ss. angeli custodi
 
 - time: "20:30"
-  title: Cena in compagnia
+  title: Cena delle associazioni di volontariato e amici
+  text: Siamo tutti invitati.
   place: sale parrocchiali ss. angeli custodi
 
-- time: "21:00"
-  title: Incontro &ldquo;Dal carcere rinasce una speranza&rdquo;
+- time: "22:00"
+  title: "Concerto: Down the Road"
   text: >-
-      Incontro con <b>don Claudio Burgio</b>, cappellano del Carcere Minorile
-      di Milano; è stato invitato <b>Alfonso De Nicola</b>. Coordina la serata
-      il giornalista <b>Alessandro Banfi</b>.
+      Esibizione del gruppo di musica country <b>Down the road</b>, diretto
+      da <b>Alessandro Garramone</b>.
   place: teatro parrocchiale ss. angeli custodi
 
 
