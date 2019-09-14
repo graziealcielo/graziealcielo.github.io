@@ -8,6 +8,7 @@ excerpt: >-
     giovani sono: &ldquo;Che cosa stanno cercando? Quello che trovano è
     all'altezza dei loro desideri? E io, che contributo posso dare alla loro
     vita?&rdquo;
+redirect_from: "/festa2018/"
 ---
 ## &ldquo;Si comunica solo ciò che si vive&rdquo;
 
