@@ -159,73 +159,51 @@
       dal parroco <b>padre Mario Aceto</b>.
   place: chiesa ss. angeli custodi
 
-- time: "11:00"
-  title: "Concerto: Gendarmeria Vaticana"
+- time: "10:45"
+  title: "Concerto: Polizia Roma Capitale"
   text: >-
-      Concerto della banda della Gendarmeria dello Stato della
-      Città del Vaticano.
+      Concerto della banda musicale Polizia Roma Capitale.
   place: piazza sempione
 
 - time: "12:00"
-  title: Incontro &ldquo;Carità come condivisione del bisogno per testimoniare Cristo&rdquo;
+  title: Incontro &ldquo;Accoglienza per essere accolti&rdquo;
   text: >-
-      Incontro con <b>Paola Bergamini</b> autrice del libro
-      <b>&ldquo;Il Vangelo guancia a guancia&rdquo;</b> e presentazione della
-      Giornata Nazionale della Colletta Alimentare con il presidente del
-      Banco Alimentare <b>Giuliano Visconti</b> e il responsabile della zona
-      nord di Roma <b>Carlo Fiorini</b>.
+      Incontro sull'esperienza di <b>Cometa</b> di Como. Sarà presente il
+      presidente di <b>Cometa Formazione</b> <b>Alessandro Mele</b>; coordina
+      <b>Franco Ferrazza</b> del <b>CSO</b>.
   place: platea in piazza sotto il municipio
 
-- time: "15:30"
-  title: Incontro &ldquo;In cammino con Santi e animali&rdquo;
+- time: "15:30-18:00"
+  title: "Concerto: Gruppi Musicali Giovanili"
   text: >-
-      Presentazione del libro <b>&ldquo;ANIMALS - Creature di Dio&rdquo;</b>
-      con l'autore <b>Giuseppe Scarlatto</b>, modera <b>Laura Nencioni</b>.
+      Esibizione e concorso dei Gruppi Musicali Giovanili. La premiazione sarà
+      alle 20:30.
+  place: palcoscenico in piazza sempione
+
+- time: "19:00"
+  title: Incontro &ldquo;Si comunica solo ciò che si vive&rdquo;
+  text: >-
+      Incontro sul tema della manifestazione &ldquo;Si comunica solo ciò che si
+      vive&rdquo;. Sono stati invitati l'ex presidente della camera dei
+      deputati <b>Fausto Bertinotti</b> e
   place: platea in piazza sotto il municipio
-
-- time: "16:00-17:00"
-  title: Gruppo Storico Romano
-  text: >-
-      Rievocazione storica dell'antica Roma con una legione
-      di 20 persone del <b>Gruppo Storico Romano</b>.
-  place: piazza sempione
-
-- time: "17:30"
-  title: Spettacolo &ldquo;I cinque linguaggi dell'amore&rdquo;
-  text: >-
-      Il comico <b>Pierluigi Bartolomei</b> presenta il suo spettacolo tratto
-      dal libro <b>&ldquo;I cinque linguaggi dell'amore&rdquo;</b> di <b>Gary
-      Chapman</b>.
-  place: palcoscenico in piazza sempione
-
-- time: "18:30"
-  title: "Concerto: Coro dei Commercialisti"
-  text: >-
-      Concerto del coro Polifonico dei commercialisti di Roma.
-  place: piazza sempione
-
-- time: "19:30"
-  title: "Concerto: Benedetto Chieffo"
-  text: >-
-      Benedetto Chieffo canta le canzoni del cantautore italiano Claudio Chieffo.
-  place: palcoscenico in piazza sempione
 
 - time: "20:30"
-  title: Premiazione del Concorso Fotografico
+  title: Premiazione Concorso Fotografico e gruppi musicali
   text: >-
-      Premiazione dei vincitori del concorso fotografico 2018.
+      Premiazione dei vincitori del concorso fotografico 2019.
       Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
+      Saranno premiati anche i migliori gruppi musicali giovanili.
   place: platea in piazza sotto il municipio
 
 - time: "21:00"
-  title: Incontro &ldquo;Realtà e giovinezza. La&nbsp;sfida&rdquo;
+  title: "Concerto: Toni Malco"
   text: >-
-      <b>Don Sergio Ghio</b>, parroco di S. Maria in Navicella, propone
-      una riflessione sul libro di <b>don Luigi Giussani</b>.
-  place: platea in piazza sotto il municipio
+      <b>Toni Malco</b> in concerto <b>&ldquo;Ricordi in acustico&rdquo;</b>
+  place: palcoscenico in piazza sempione
 
 - time: "22:30"
-  title: Lotteria 2018
+  title: Lotteria 2019
   text: >-
-      Estrazione vincitori della sottoscrizione a premi 2018.
+      Estrazione vincitori della sottoscrizione a premi 2019.
   place: platea in piazza sotto il municipio
