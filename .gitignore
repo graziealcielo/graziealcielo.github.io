@@ -1,4 +1,5 @@
 _site
+.bundle
 .jekyll-metadata
 
 # Lo so lo so il lockfile andrebbe tenuto. Ma questo deve funzionare
