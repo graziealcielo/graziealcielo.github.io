@@ -19,7 +19,7 @@
   place: piazza sempione angolo chiesa
 
 - time: "20:00"
-  title: "Incontro: &ldquo;E vissero felici e contenti&rdquo;"
+  title: Incontro &ldquo;E vissero felici e contenti&rdquo;
   text: >-
       Incontro con il <b>dott. Roberto Marchesini</b> di Bologna. Spunti
       di sopravvivenza per le giovani famiglie.
@@ -45,7 +45,8 @@
 - time: "9:00"
   title: Esposizione del Concorso Fotografico
   text: >-
-      Esposizione delle foto del concorso fotografico 2018.
+      Esposizione delle foto del concorso fotografico 2019, sul tema
+      <b>&ldquo;La strada come luogo d'incontro&rdquo;</b>.
       Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
   place: gazebo in piazza sempione
 
@@ -62,12 +63,25 @@
       che daranno le istruzioni per partecipare.
   place: luogo di ritrovo annunciato al momento
 
+- time: "12:30"
+  title: Incontro &ldquo;Nani su spalle di giganti&rdquo;
+  text: >-
+      <b>Fede, speranza, educazione, carità.</b> Presentazione e proiezione in
+      prima visione pubblica dei cortometraggi di <b>Eugenio Bollani</b>,
+      regista.
+  place: platea in piazza sotto il municipio
+
+- time: "13:00"
+  title: Pranzo e incontro con il dott. Mauro Ceroni
+  text: >-
+      Incontro pranzando insieme con il primario del reparto di neurologia di
+      Pavia <b>prof. dott. Mauro Ceroni</b> e il comitato organizzativo.
+  place: chiedere informazioni in piazza
+
 - time: "15:00"
   title: Mostra pittorica
   text: >-
-      Esposizione di <b>quadri di artisti locali</b>. Sarà presente il liceo
-      artistico <b>I.I.S. via Sarandì</b> intervenendo con giovani artisti
-      alunni dell'istituto scolastico.
+      Esposizione di <b>quadri di artisti locali</b>.
   place: gazebo in piazza sempione
 
 - time: "15:30"
@@ -93,45 +107,50 @@
   place: luogo di ritrovo annunciato al momento
 
 - time: "16:30"
-  title: "Concerto: Fabio Coladarci"
+  title: "Spettacolo: &ldquo;De' remi facemmo ali&rdquo;"
   text: >-
-      Esibizione del campione del mondo di organetto <b>Fabio Coladarci</b>
-      con i suoi allievi.
+      Rappresentazione teatrale da parte degli alunni del liceo Giordano Bruno
+      del XXVI canto dell'inferno, con la prof.ssa <b>Donatella Damiano</b> e
+      l'<b>Associazione Culturale XENIA</b>. Direttore artistico
+      <b>Paolo Pasquini</b>.
   place: palcoscenico in piazza sempione
 
 - time: "17:00"
-  title: Incontro testimonianza &ldquo;Giovani amici di Dio&rdquo;
+  title: "Incontro &ldquo;Educazione: introduzione alla realtà&rdquo;"
   text: >-
-      Incontro testimonianza di alcuni giovani con la giornalista
-      <b>Marina Ricci</b>.
+      La prima cosa fondamentale nell'educazione è la compagnia: far compagnia
+      a loro, lasciarsi sfidare dalle loro domande. Comunicare loro quello che
+      rende felici noi. L'educazione è un rapporto. Sarà presente il <b>prof.
+      Eraldo Affinati</b> preside della scuola <b>Penny Wirton</b>. Sono stati
+      invitati i presidi dei licei <b>Orazio</b> e <b>Aristofane</b> e la
+      <b>prof.ssa Cinetta Dantrassi</b>. Modera l'incontro la <b>prof.ssa
+      Agnese Sandrin</b>.
   place: platea in piazza sotto il municipio
 
-- time: "19:00"
-  title: Incontro &ldquo;Lavorare per&nbsp;cosa, lavorare per&nbsp;chi&rdquo;
+- time: "18:30"
+  title: "Concerto: Mont Sacre Jazz Quintet"
+  place: palcoscenico in piazza sempione
+
+- time: "19:15"
+  title: Incontro &ldquo;Startappando si può fare&rdquo;
   text: >-
-      Coordina il <b>prof. Carlo Regogliosi</b> (docente di economia
-      all'Università degli Studi Roma 3), invitati <b>Sergio Vergani</b>
-      (direttore generale Fides spa) e <b>Paolo Stern</b> (consulente del
-      lavoro, presidente network <b>Stern e Zanin</b>).
+      Un progetto per la valorizzazione delle passioni, delle capacità, delle
+      esperienze e del territorio. Sarà presente <b>Maurizio Dell'Unto</b>
+      presidente della <b>Compagnia delle Opere</b> del Lazio e <b>Dino Blasi</b>.
+      Interverrà <b>Giovanni De Carli</b> della <b>CDO</b>.
   place: platea in piazza sotto il municipio
 
 - time: "21:00"
-  title: "Concerto: SHAMROCK BAND"
+  title: "Concerto: Out of Size"
   text: >-
-      Concerto di canzoni e musica tradizionale irlandese
+      Concerto della band <b>Out of Size</b> musica spiritual, country e rock
+      della tradizione americana.
   place: palcoscenico in piazza sempione
 
 
 - type: separator
   label: domenica 22
   title: domenica 22 settembre
-
-- time: "9:00-10:00"
-  title: Tornei di biliardino e ping&nbsp;pong
-  text: >-
-      Seconda giornata del torneo di <b>Biliardino</b> e
-      del torneo di <b>Ping Pong</b>.
-  place: per iscrizioni umberto (cell. 328 4587955)
 
 - time: "10:00"
   title: "Santa Messa"
