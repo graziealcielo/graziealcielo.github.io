@@ -1,6 +1,6 @@
 - type: separator
-  label: venerdì 21
-  title: venerdì 21 settembre
+  label: venerdì 20
+  title: venerdì 20 settembre
 
 - time: "18:00"
   title: Incontro con le associazioni
@@ -37,8 +37,8 @@
 
 
 - type: separator
-  label: sabato 22
-  title: sabato 22 settembre
+  label: sabato 21
+  title: sabato 21 settembre
 
 - time: "9:00"
   title: Esposizione del Concorso Fotografico
@@ -121,8 +121,8 @@
 
 
 - type: separator
-  label: domenica 23
-  title: domenica 23 settembre
+  label: domenica 22
+  title: domenica 22 settembre
 
 - time: "9:00-10:00"
   title: Tornei di biliardino e ping&nbsp;pong
