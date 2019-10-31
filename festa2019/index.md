@@ -1,6 +1,6 @@
 ---
 layout: event_article
-title: Il volontariato incontra Montesacro
+title: Montesacro Incontra
 theme: "#0f8c5a"
 excerpt: >-
     &ldquo;Si comunica solo ciò che si vive&rdquo; è il titolo della 6a
