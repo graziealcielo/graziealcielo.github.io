@@ -1,85 +1,16 @@
 - type: separator
-  label: venerdì 20
-  title: venerdì 20 settembre
-
-- time: "18:00"
-  title: Inaugurazione mostra &ldquo;Nuove generazioni. I&nbsp;volti giovani dell'Italia multietnica&rdquo;
-  text: >-
-      La mostra sarà visitabile <b>da Venerdì 20 a Venerdì 27 Settembre</b> nella
-      Sala Consiliare del Terzo Municipio in piazza Sempione dalle 10:00 alle
-      12:00 e dalle 16:00 alle 18:00. Partecipano all'inaugurazione il curatore
-      della mostra Giorgio Paolucci, Marouen Bejaoui uno dei protagonisti, e il
-      vescovo e presidente della Fondazione Migrantes Mons. Guerino Di Tora.
-      Seguirà la visita guidata alla mostra. Modera l'incontro Silvia Guidi,
-      giornalista de L'Osservatore Romano.
-  place: sala consiliare terzo municipio
-
-- time: "19:15"
-  title: Inaugurazione mostra &ldquo;Il monachesimo medievale&rdquo;
-  text: >-
-      La mostra sarà visitabile <b>Sabato e Domenica</b> in piazza Sempione
-      dalle 10:00 alle 13:00 e dalle 16:00 alle 21:00.
-  place: piazza sempione angolo chiesa
-
-- time: "20:00"
-  title: Incontro &ldquo;E vissero felici e contenti&rdquo;
-  text: >-
-      Incontro con il <b>dott. Roberto Marchesini</b> di Bergamo. Spunti
-      di sopravvivenza per le giovani famiglie.
-  place: teatro parrocchiale ss. angeli custodi
-
-- time: "20:30"
-  title: Cena delle associazioni di volontariato e amici
-  text: Siamo tutti invitati.
-  place: sale parrocchiali ss. angeli custodi
-
-- time: "22:00"
-  title: "Concerto: Down the Road"
-  text: >-
-      Esibizione del gruppo di musica country <b>Down the road</b>, diretto
-      da <b>Alessandro Garramone</b>.
-  place: teatro parrocchiale ss. angeli custodi
-
-
-- type: separator
-  label: sabato 21
-  title: sabato 21 settembre
-
-- time: "9:00"
-  title: Esposizione del Concorso Fotografico
-  text: >-
-      Esposizione delle foto del concorso fotografico 2019, sul tema
-      <b>&ldquo;La strada come luogo d'incontro&rdquo;</b>.
-      Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
-  place: gazebo in piazza sempione
-
-- time: "9:00"
-  title: Tornei&nbsp;di biliardino e ping&nbsp;pong
-  text: >-
-      Inizio del torneo di <b>Biliardino</b> e del torneo di <b>Ping Pong</b>.
-  place: per iscrizioni umberto (cell. 328 4587955)
+  label: sabato 3
+  title: sabato 3 ottobre
 
 - time: "11:00"
-  title: Giocone a squadre in piazza
+  title: Incontro delle associazioni di volontariato
   text: >-
-      Il giocone a squadre per i bambini sarà annunciato dai presentatori
-      che daranno le istruzioni per partecipare.
-  place: luogo di ritrovo annunciato al momento
-
-- time: "12:30"
-  title: Incontro &ldquo;Nani su spalle di giganti&rdquo;
-  text: >-
-      <b>Fede, speranza, educazione, carità.</b> Presentazione e proiezione in
-      prima visione pubblica dei cortometraggi di <b>Eugenio Bollani</b>,
-      regista.
-  place: platea in piazza sotto il municipio
-
-- time: "13:00"
-  title: Pranzo e incontro con il dott. Mauro Ceroni
-  text: >-
-      Incontro pranzando insieme con il primario del reparto di neurologia di
-      Pavia <b>prof. dott. Mauro Ceroni</b> e il comitato organizzativo.
-  place: chiedere informazioni in piazza
+      Incontro e testimonianza finale di <b>Liborio</b>, presidente della
+      cooperativa <i>&ldquo;Rossa Sera&rdquo;</i> di Alcamo. Saranno presenti
+      l'Assessore alle Politiche Sociali <b>Maria Romano</b>, la consigliera
+      <b>Sara Alonzi</b> del III Municipio e il <b>dr. Mauro Raffaeli</b>
+      psichiatra ASL Roma 1. Coordina il giornalista <b>Daniele Nardi</b>.
+  place: platea in piazza o sotto le arcate
 
 - time: "15:00"
   title: Mostra pittorica
@@ -88,126 +19,105 @@
   place: gazebo in piazza sempione
 
 - time: "15:30"
-  title: Canti in compagnia
+  title: Incontro con la dott.ssa Carolina Cassar
   text: >-
-      Qui si canta! &laquo;Si canta davvero solo quando si appartiene&raquo;
-      <i>(don Giussani)</i>. Un momento di canti guidato, dedicato a bambini
-      ma anche a ragazzi e adulti, per un'amicizia aperta a tutto il mondo.
-  place: luogo di ritrovo annunciato al momento
+      La dottoressa <b>Carolina Cassar</b> risponderà alle paure dei bambini
+      sulla pandemia.
+  place: gazebo in piazza sempione
 
 - time: "16:00"
-  title: Spazio bimbi
+  title: "Banda Musicale &ldquo;Vincenzo Bellini&rdquo;"
   text: >-
-      Corso di due giorni di <b>progettazione e costruzione presepio</b>
-      con i maestri presepisti.
-  place: chiedere informazioni in piazza
-
-- time: "16:00"
-  title: Educazione cinofila
-  text: >-
-      Dimostrazioni pratiche di <b>educazione cinofila</b> a cura di Fabrizio
-      dell'associazione &ldquo;Animali in famiglia&rdquo;.
-  place: luogo di ritrovo annunciato al momento
-
-- time: "16:30"
-  title: "Spettacolo: &ldquo;De' remi facemmo ali&rdquo;"
-  text: >-
-      Rappresentazione teatrale curata dagli alunni del liceo Giordano Bruno
-      del XXVI canto dell'inferno, con la prof.ssa <b>Donatella Damiano</b> e
-      l'<b>Associazione Culturale XENIA</b>. Direttore artistico
-      <b>Paolo Pasquini</b>.
-  place: palcoscenico in piazza sempione
+      Esibizione della Banda Musicale &ldquo;Vincenzo Bellini&rdquo; di
+      Montesacro.
+  place: in piazza sempione
 
 - time: "17:00"
-  title: "Incontro &ldquo;Educazione: introduzione alla realtà&rdquo;"
+  title: "Incontro &ldquo;Rispondere al bisogno per condividere il senso della vita&rdquo;"
   text: >-
-      La prima cosa fondamentale nell'educazione è la compagnia: far compagnia
-      a loro, lasciarsi sfidare dalle loro domande. Comunicare loro quello che
-      rende felici noi. L'educazione è un rapporto. Sarà presente il <b>prof.
-      Eraldo Affinati</b>, fondatore della scuola <b>Penny Wirton</b>. Sono
-      state invitate le presidi del liceo <b>Orazio</b>, <b>prof.ssa Maria
-      Grazia Lancillotti</b>, e del liceo <b>Aristofane</b>, <b>prof.ssa
-      Raffaela Giustizieri</b>, e la <b>prof.ssa Cinetta Dantrassi</b>. Modera
-      l'incontro la <b>prof.ssa Agnese Sandrin</b>, dirigente dell'<b>Istituto
-      Comprensivo Luigi Giussani</b> di Ascoli Piceno.
-  place: platea in piazza sotto il municipio
+      Sarà presente <b>Andrea Franchi</b>, presidente dei <b>Banchi di
+      solidarietà nazionale</b>. Conduce l'incontro <b>Daniele Ottavi</b>.
+  place: platea in piazza o sotto le arcate
 
-- time: "18:30"
-  title: "Concerto: Mont Sacre Jazz Quintet"
-  place: palcoscenico in piazza sempione
-
-- time: "19:15"
-  title: Incontro &ldquo;Startappando si può fare&rdquo;
+- time: "18:00"
+  title: "Mostra fotografica"
   text: >-
-      Un progetto per la valorizzazione delle passioni, delle capacità, delle
-      esperienze e del territorio. Sarà presente <b>Maurizio Dell'Unto</b>
-      presidente della <b>Compagnia delle Opere</b> del Lazio e <b>Dino Blasi</b>.
-      Interverrà <b>Giovanni De Carli</b> della <b>CDO</b>.
-  place: platea in piazza sotto il municipio
+      Presentazione mostra fotografica personale di <b>Alberto Ricci</b>.
+  place: piazza sempione
 
-- time: "21:00"
-  title: "Concerto: Out of Size"
+- time: "19:00"
+  title: "Incontro &ldquo;La ricchezza del bene&rdquo;"
   text: >-
-      Concerto della band <b>Out of Size</b> musica spiritual, country e rock
-      della tradizione americana.
-  place: palcoscenico in piazza sempione
+      Incontro con la giornalista <b>Safiria Leccese</b> sul suo libro
+      <b>&ldquo;La ricchezza del bene. Storie di imprenditori fra anima e
+      business.&rdquo;</b>. Con la partecipazione di <b>Franco Ferrazza</b>,
+      responsabile nazionale del CSO (Centro Sviluppo Occupazionale).
+  place: platea in piazza o sotto le arcate
+
+- time: "20:30"
+  title: "Proiezione di un film"
+  text: >-
+      Sarà proiettato un film in piazza Sempione.
+  place: platea in piazza o sotto le arcate
 
 
 - type: separator
-  label: domenica 22
-  title: domenica 22 settembre
+  label: domenica 4
+  title: domenica 4 ottobre
 
-- time: "10:00"
+- time: "0:00"
   title: "Santa Messa"
   text: >-
-      Santa Messa presso la parrocchia dei Santi Angeli Custodi celebrata
-      dal parroco <b>padre Mario Aceto</b>.
+      Santa Messa presso la parrocchia dei Santi Angeli Custodi.
   place: chiesa ss. angeli custodi
 
-- time: "10:45"
+- time: "10:00"
+  title: Incontro famiglie &ldquo;Una presenza al bisogno del mondo&rdquo;
+  text: >-
+      Perché fare famiglia, stabilire rapporti duraturi? Che senso ha impegnarsi
+      per il bene comune? Saranno presenti <b>Gigi de Palo</b>, presidente
+      nazionale <b>Forum delle Associazioni Familiari</b>, e la moglie <b>Anna
+      Chiara Gambini</b>.
+  place: platea in piazza o sotto le arcate
+
+- time: "11:00"
   title: "Concerto: Polizia Roma Capitale"
   text: >-
       Concerto della banda musicale Polizia Roma Capitale.
   place: piazza sempione
 
-- time: "12:00"
-  title: Incontro &ldquo;Accoglienza per essere accolti&rdquo;
+- time: "17:00"
+  title: Una giornata in corsia
   text: >-
-      Incontro sull'esperienza di <b>Cometa</b> di Como. Sarà presente il
-      presidente di <b>Cometa Formazione</b> <b>Alessandro Mele</b>; coordina
-      <b>Franco Ferrazza</b> del <b>CSO</b>.
-  place: platea in piazza sotto il municipio
+    Incontro con il <b>prof. Amedeo Capetti</b>, infettivologo al <b>Sacco</b>,
+    ospedale milanese in prima linea dall'inizio dell'epidemia di Coronavirus,
+    e con la <b>dott.ssa Elisabetta Cavalieri</b>, anestesista nel reparto
+    Covid del Policlinico Umberto I. Conduce l'incontro il <b>dott. Carlo
+    Santarini</b> di Massa-Carrara.
+place: platea in piazza o sotto le arcate
 
-- time: "15:30-18:00"
-  title: "Concerto: Gruppi Musicali Giovanili"
+- time: "18:00"
+  title: "Incontro: Valerio Capasa"
   text: >-
-      Esibizione e concorso dei Gruppi Musicali Giovanili. La premiazione sarà
-      alle 20:30.
-  place: palcoscenico in piazza sempione
+      <b>Valerio Capasa</b> sulle canzoni di Lucio Dalla.
+  place: platea in piazza o sotto le arcate
 
 - time: "19:00"
-  title: Incontro &ldquo;Si comunica solo ciò che si vive&rdquo;
+  title: Incontro &ldquo;Che cosa regge l'urto del tempo?&rdquo;
   text: >-
-      Incontro sul tema della manifestazione &ldquo;Si comunica solo ciò che si
-      vive&rdquo;. È stato invitato <b>don Eugenio Nembrini</b>.
-  place: platea in piazza sotto il municipio
+      Incontro sul tema della manifestazione &ldquo;Che cosa regge l'urto del
+      tempo?&rdquo;. Sarà presente <b>don Sandro Bonicalzi</b>, coordina
+      l'incontro l'<b>Avv. Maurizio Dell'Unto</b>.
+  place: platea in piazza o sotto le arcate
 
 - time: "20:30"
-  title: Premiazione Concorso Fotografico e gruppi musicali
+  title: "Cabaret"
   text: >-
-      Premiazione dei vincitori del concorso fotografico 2019.
-      Per informazioni <b>Roberto Di Donato (cell. 368 7423850)</b>.
-      Saranno premiati anche i migliori gruppi musicali giovanili.
-  place: platea in piazza sotto il municipio
+      Esibizione del cabarettista <b>'NDUCCIO</b>.
+  place: platea in piazza o sotto le arcate
 
-- time: "21:00"
-  title: "Concerto: Toni Malco"
+- time: "22:00"
+  title: Lotteria 2020
   text: >-
-      <b>Toni Malco</b> in concerto <b>&ldquo;Ricordi in acustico&rdquo;</b>
-  place: palcoscenico in piazza sempione
-
-- time: "22:30"
-  title: Lotteria 2019
-  text: >-
-      Estrazione vincitori della sottoscrizione a premi 2019.
-  place: platea in piazza sotto il municipio
+      Estrazione vincitori della sottoscrizione a premi 2020.
+  place: platea in piazza o sotto le arcate
