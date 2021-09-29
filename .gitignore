@@ -2,6 +2,7 @@ _site
 .bundle
 .jekyll-metadata
 vendor
+.DS_Store
 
 # Lo so lo so il lockfile andrebbe tenuto. Ma questo deve funzionare
 # su tutte le versioni di Github Pages

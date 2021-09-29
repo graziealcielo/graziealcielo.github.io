@@ -1,15 +1,16 @@
 ---
 layout: event_page
-title: Incontri - Il volontariato incontra Montesacro
+title: Giochi - Il volontariato incontra Montesacro
 header:
-    title: Incontri
+    title: Giochi
 redirect_from:
-    - /festa2018/incontri
-    - /festa2019/incontri
-redirect_to: "/festa2020/programma"
+    - /festa2018/giochi
+    - /festa2019/giochi
+    - /festa2020/giochi
+redirect_to: "/festa2021/programma"
 ---
 <section class="card-grid" style="margin: 0 auto;">
-{% for card in site.incontri %}
+{% for card in site.giochi %}
     <div class="card-grid-item">
         {% include card.html obj=card %}
     </div>

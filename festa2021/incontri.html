@@ -1,0 +1,18 @@
+---
+layout: event_page
+title: Incontri - Il volontariato incontra Montesacro
+header:
+    title: Incontri
+redirect_from:
+    - /festa2018/incontri
+    - /festa2019/incontri
+    - /festa2020/incontri
+redirect_to: "/festa2021/programma"
+---
+<section class="card-grid" style="margin: 0 auto;">
+{% for card in site.incontri %}
+    <div class="card-grid-item">
+        {% include card.html obj=card %}
+    </div>
+{% endfor %}
+</section>
