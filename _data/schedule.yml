@@ -1,123 +1,149 @@
 - type: separator
-  label: sabato 3
-  title: sabato 3 ottobre
+  label: sabato 2
+  title: sabato 2 ottobre
+
+- time: "10:00"
+  title: Tornei&nbsp;di biliardino e ping&nbsp;pong
+  text: >-
+      Inizio del torneo di <b>Biliardino</b> e del torneo di <b>Ping Pong</b>.
+  place: per iscrizioni umberto (cell. 328 4587955)
+
+- time: "10:30"
+  title: Visita guidata al Ponte Nomentano
+  text: >-
+      Visita guidata organizzata dall'associazione <b>Il Carro de' Comici</b>
+      di Roma.
+  place: Ponte Nomentano
 
 - time: "11:00"
   title: Incontro delle associazioni di volontariato
   text: >-
-      Incontro e testimonianza finale di <b>Liborio</b>, presidente della
-      cooperativa <i>&ldquo;Rossa Sera&rdquo;</i> di Alcamo. Saranno presenti
-      l'Assessore alle Politiche Sociali <b>Maria Romano</b>, la consigliera
-      <b>Sara Alonzi</b> del III Municipio e il <b>dr. Mauro Raffaeli</b>
-      psichiatra ASL Roma 1. Coordina il giornalista <b>Daniele Nardi</b>.
-  place: platea in piazza o sotto le arcate
+      Coordina il dr. <b>Mauro Raffaeli</b> Psichiatra ASL Roma 1.
+  place: platea nella pineta
+
+- time: "13:00"
+  title: Pranzo
+  place: ""
 
 - time: "15:00"
   title: Mostra pittorica
   text: >-
       Esposizione di <b>quadri di artisti locali</b>.
-  place: gazebo in piazza sempione
+  place: gazebo mostre in pineta
 
 - time: "15:30"
-  title: Incontro con la dott.ssa Carolina Cassar
+  title: Sguardi a fior di pelle
   text: >-
-      La dottoressa <b>Carolina Cassar</b> risponderà alle paure dei bambini
-      sulla pandemia.
-  place: gazebo in piazza sempione
+      Mostra fotografica, autori a confronto.
+  place: gazebo mostre in pineta
 
 - time: "16:00"
-  title: "Banda Musicale &ldquo;Vincenzo Bellini&rdquo;"
+  title: "Presentazione del libro &ldquo;Le ali della verità&rdquo;"
   text: >-
-      Esibizione della Banda Musicale &ldquo;Vincenzo Bellini&rdquo; di
-      Montesacro.
-  place: in piazza sempione
+      Presentazione del libro &ldquo;Le ali della verità&rdquo; di <b>Monica Manzini</b>.
+      Sarà presente l'autrice presso il gazebo libri.
+  place: platea nella pineta
 
 - time: "17:00"
-  title: "Incontro &ldquo;Rispondere al bisogno per condividere il senso della vita&rdquo;"
+  title: "Enzo Piccinini: &ldquo;La vita in un incontro&rdquo;"
   text: >-
-      Sarà presente <b>Andrea Franchi</b>, presidente dei <b>Banchi di
-      solidarietà nazionale</b>. Conduce l'incontro <b>Daniele Ottavi</b>.
-  place: platea in piazza o sotto le arcate
+      Partecipano la sig.ra <b>Monica Veraldi</b>, la sig.ra <b>Daniela Zannella</b>
+      e il dott. <b>Manlio Gessaroli</b>. Modera l'incontro l'avvocato <b>Maurizio
+      dell'Unto</b>.
+  place: platea nella pineta
 
-- time: "18:00"
-  title: "Mostra fotografica"
+- time: "18:30"
+  title: "Incontro &ldquo;Chi è cristiano sa gustare la vita&rdquo;"
   text: >-
-      Presentazione mostra fotografica personale di <b>Alberto Ricci</b>.
-  place: piazza sempione
+      Saranno presenti <b>Paolo Massobrio</b>, giornalista gastronomo,
+      fondatore di Golosaria e presidente del Club Papillon, e <b>Giuliano
+      Visconti</b>, presidente del Banco Alimentare del Lazio. Modera
+      <b>Carlo Pompei</b>.
+  place: platea nella pineta
 
-- time: "19:00"
-  title: "Incontro &ldquo;La ricchezza del bene&rdquo;"
-  text: >-
-      Incontro con la giornalista <b>Safiria Leccese</b> sul suo libro
-      <b>&ldquo;La ricchezza del bene. Storie di imprenditori fra anima e
-      business.&rdquo;</b>. Con la partecipazione di <b>Franco Ferrazza</b>,
-      responsabile nazionale del CSO (Centro Sviluppo Occupazionale).
-  place: platea in piazza o sotto le arcate
+- time: "19:30"
+  title: Cena
+  place: ""
 
 - time: "20:30"
-  title: "Proiezione di un film"
+  title: Canti in compagnia
   text: >-
-      Sarà proiettato un film in piazza Sempione.
-  place: platea in piazza o sotto le arcate
+      Qui si canta! &laquo;Si canta davvero solo quando si appartiene&raquo;
+      <i>(don Giussani)</i>. Un momento di canti guidato, dedicato a bambini
+      ma anche a ragazzi e adulti, per un'amicizia aperta a tutto il mondo.
+  place: luogo di ritrovo annunciato al momento
 
 
 - type: separator
-  label: domenica 4
-  title: domenica 4 ottobre
-
-- time: "0:00"
-  title: "Santa Messa"
-  text: >-
-      Santa Messa presso la parrocchia dei Santi Angeli Custodi.
-  place: chiesa ss. angeli custodi
+  label: domenica 3
+  title: domenica 3 ottobre
 
 - time: "10:00"
-  title: Incontro famiglie &ldquo;Una presenza al bisogno del mondo&rdquo;
+  title: "Santa Messa"
   text: >-
-      Perché fare famiglia, stabilire rapporti duraturi? Che senso ha impegnarsi
-      per il bene comune? Saranno presenti <b>Gigi de Palo</b>, presidente
-      nazionale <b>Forum delle Associazioni Familiari</b>, e la moglie <b>Anna
-      Chiara Gambini</b>.
-  place: platea in piazza o sotto le arcate
+      Santa Messa nella pineta.
+  place: platea nella pineta
 
 - time: "11:00"
-  title: "Concerto: Polizia Roma Capitale"
+  title: Incontro sulla famiglia
   text: >-
-      Concerto della banda musicale Polizia Roma Capitale.
-  place: piazza sempione
+      &laquo;La famiglia è il luogo in cui le cose accadono, specialmente le cose
+      che contano&raquo; <i>(G. K. Chesterton)</i>. Testimonianze di <b>Macario
+      e Miriam</b> di Madrid. Sarà presente <b>Miriam Nembrini</b>. Modera
+      <b>Marco Martinelli</b>.
+  place: platea nella pineta
+
+- time: "12:30"
+  title: Pranzo insieme
+  place: ""
+
+- time: "14:30"
+  title: Giochi genitori e figli
+  text: >-
+      Corsa con i sacchi, tiro alla fune, gioco del fazzoletto etc.
+  place: "in pineta"
+
+- time: "15:30"
+  title: "Finestra sul lavoro: &ldquo;Lavorare così è un'altra cosa&rdquo;"
+  text: >-
+      Incontro con <b>Pietro Sala</b>, managing director in una importante
+      istituzione finanziaria. Con la giornalista <b>Marina Ricci</b>.
+  place: platea nella pineta
+
+- time: "16:30"
+  title: "Concerto: associazione Vincenzo Bellini"
+  text: >-
+      Esibizione dell'associazione <b>Vincenzo Bellini</b>, band di Montesacro
+      diretta dal maestro <b>Giovanni Melchiorre</b>
+  place: platea nella pineta
 
 - time: "17:00"
-  title: Una giornata in corsia
+  title: "Incontro: Gaetano Savatteri"
   text: >-
-    Incontro con il <b>prof. Amedeo Capetti</b>, infettivologo al <b>Sacco</b>,
-    ospedale milanese in prima linea dall'inizio dell'epidemia di Coronavirus,
-    e con la <b>dott.ssa Elisabetta Cavalieri</b>, anestesista nel reparto
-    Covid del Policlinico Umberto I. Conduce l'incontro il <b>dott. Carlo
-    Santarini</b> di Massa-Carrara.
-  place: platea in piazza o sotto le arcate
+      Sarà presente <b>Gaetano Savatteri</b>, giornalista e scrittore. Coordinano
+      l'incontro <b>Danilo Villani</b> e <b>Zaira Lo Buglio</b>.
+  place: platea nella pineta
 
-- time: "18:00"
-  title: "Incontro: Valerio Capasa"
+- time: "18:30"
+  title: Incontro &ldquo;Leggere in tempo di crisi&rdquo;
   text: >-
-      <b>Valerio Capasa</b> sulle canzoni di Lucio Dalla.
-  place: platea in piazza o sotto le arcate
+      Incontro con <b>Fabio Pierangeli</b>, professore di Letteratura Italiana
+      presso l'Università di Tor Vergata, e <b>Alessandro Banfi</b>, giornalista.
+  place: platea nella pineta
 
-- time: "19:00"
-  title: Incontro &ldquo;Che cosa regge l'urto del tempo?&rdquo;
-  text: >-
-      Incontro sul tema della manifestazione &ldquo;Che cosa regge l'urto del
-      tempo?&rdquo;. Sarà presente <b>don Sandro Bonicalzi</b>, coordina
-      l'incontro l'<b>Avv. Maurizio Dell'Unto</b>.
-  place: platea in piazza o sotto le arcate
+- time: "19:30"
+  title: Cena
+  place: ""
 
 - time: "20:30"
-  title: "Cabaret"
+  title: "Concerto: Mont Sacre Trio Jazz"
   text: >-
-      Esibizione del cabarettista <b>'NDUCCIO</b>.
-  place: platea in piazza o sotto le arcate
+      Esibizione del gruppo <b>Mont Sacre Trio Jazz</b> di Corrado Severi,
+      Max De Lucia e Fabrizio Montemerano.
+  place: platea nella pineta
 
-- time: "22:00"
-  title: Lotteria 2020
+- time: "21:30"
+  title: Lotteria 2021
   text: >-
-      Estrazione vincitori della sottoscrizione a premi 2020.
-  place: platea in piazza o sotto le arcate
+      Estrazione vincitori della sottoscrizione a premi 2021.
+  place: platea nella pineta

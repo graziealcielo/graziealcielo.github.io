@@ -206,30 +206,30 @@ nav.event-navbar {
 
 @media #{query-splash-size(480px, 360px)} {
     header.splash, .event-page header {
-        background-image: url(/assets/img/festa_2020/banner_480.jpg);
+        background-image: url(/assets/img/festa_2021/banner_480.jpg);
     }
 }
 
 @media #{query-splash-size(640px, 480px, 480px, 360px)} {
     header.splash, .event-page header {
-        background-image: url(/assets/img/festa_2020/banner_640.jpg);
+        background-image: url(/assets/img/festa_2021/banner_640.jpg);
     }
 }
 
 @media #{query-splash-size(960px, 720px, 640px, 480px)} {
     header.splash, .event-page header {
-        background-image: url(/assets/img/festa_2020/banner_960.jpg);
+        background-image: url(/assets/img/festa_2021/banner_960.jpg);
     }
 }
 
 @media #{query-splash-size(1366px, 1025px, 960px, 720px)} {
     header.splash, .event-page header {
-        background-image: url(/assets/img/festa_2020/banner_1366.jpg);
+        background-image: url(/assets/img/festa_2021/banner_1366.jpg);
     }
 }
 
 @media #{query-splash-size(2048px, 1536px, 1366px, 1025px, $last: true)} {
     header.splash, .event-page header {
-        background-image: url(/assets/img/festa_2020/banner_2048.jpg);
+        background-image: url(/assets/img/festa_2021/banner_2048.jpg);
     }
 }
