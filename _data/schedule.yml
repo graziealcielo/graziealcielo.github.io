@@ -1,149 +1,159 @@
 - type: separator
-  label: sabato 2
-  title: sabato 2 ottobre
+  label: venerdì 30
+  title: venerdì 30 settembre
 
-- time: "10:00"
-  title: Tornei&nbsp;di biliardino e ping&nbsp;pong
+- time: "19:00"
+  title: 100 anni di Don Giussani
   text: >-
-      Inizio del torneo di <b>Biliardino</b> e del torneo di <b>Ping Pong</b>.
-  place: per iscrizioni umberto (cell. 328 4587955)
-
-- time: "10:30"
-  title: Visita guidata al Ponte Nomentano
-  text: >-
-      Visita guidata organizzata dall'associazione <b>Il Carro de' Comici</b>
-      di Roma.
-  place: Ponte Nomentano
-
-- time: "11:00"
-  title: Incontro delle associazioni di volontariato
-  text: >-
-      Coordina il dr. <b>Mauro Raffaeli</b> Psichiatra ASL Roma 1.
-  place: platea nella pineta
-
-- time: "13:00"
-  title: Pranzo
-  place: ""
-
-- time: "15:00"
-  title: Mostra pittorica
-  text: >-
-      Esposizione di <b>quadri di artisti locali</b>.
-  place: gazebo mostre in pineta
-
-- time: "15:30"
-  title: Sguardi a fior di pelle
-  text: >-
-      Mostra fotografica, autori a confronto.
-  place: gazebo mostre in pineta
-
-- time: "16:00"
-  title: "Presentazione del libro &ldquo;Le ali della verità&rdquo;"
-  text: >-
-      Presentazione del libro &ldquo;Le ali della verità&rdquo; di <b>Monica Manzini</b>.
-      Sarà presente l'autrice presso il gazebo libri.
-  place: platea nella pineta
-
-- time: "17:00"
-  title: "Enzo Piccinini: &ldquo;La vita in un incontro&rdquo;"
-  text: >-
-      Partecipano la sig.ra <b>Monica Veraldi</b>, la sig.ra <b>Daniela Zannella</b>
-      e il dott. <b>Manlio Gessaroli</b>. Modera l'incontro l'avvocato <b>Maurizio
-      dell'Unto</b>.
-  place: platea nella pineta
-
-- time: "18:30"
-  title: "Incontro &ldquo;Chi è cristiano sa gustare la vita&rdquo;"
-  text: >-
-      Saranno presenti <b>Paolo Massobrio</b>, giornalista gastronomo,
-      fondatore di Golosaria e presidente del Club Papillon, e <b>Giuliano
-      Visconti</b>, presidente del Banco Alimentare del Lazio. Modera
-      <b>Carlo Pompei</b>.
-  place: platea nella pineta
-
-- time: "19:30"
-  title: Cena
-  place: ""
+      Testimonianze di Don <b>Donato Perron</b>, <b>Gino Agnese</b> (giornalista)
+      e del dott.&nbsp;<b>Adriano Rusconi</b> (medico).
+  place: sala consiliare municipio III, piazza sempione
 
 - time: "20:30"
-  title: Canti in compagnia
+  title: Cena insieme
+  place: ""
+
+- time: "21:30"
+  title: Serata di canti
+  place: ""
+
+- type: separator
+  label: sabato 1
+  title: sabato 1 ottobre
+
+- time: "10:00"
+  title: Torneo di Volley
   text: >-
-      Qui si canta! &laquo;Si canta davvero solo quando si appartiene&raquo;
-      <i>(don Giussani)</i>. Un momento di canti guidato, dedicato a bambini
-      ma anche a ragazzi e adulti, per un'amicizia aperta a tutto il mondo.
-  place: luogo di ritrovo annunciato al momento
+      Inizio del torneo di <b>Volley</b> organizzato da Daniele Matteini.
+  place: piazza sempione
+
+- time: "11:00"
+  title: Laboratorio di discipline pittoriche
+  text: >-
+      A cura di Laura Grosso.
+  place: piazza sempione
+
+- time: "11:30"
+  title: Incontro delle associazioni di volontariato
+  text: >-
+      Coordina il dott.&nbsp;<b>Mauro Raffaeli</b> Psichiatra ASL Roma 1. Sarà
+      presente l'assessore <b>Maria Concetta Romano</b>. Seguirà pranzo insieme.
+  place: sala consiliare municipio III, piazza sempione
+
+- time: "12:00"
+  title: Presentazione libri
+  text: >-
+      Saranno presentati alcuni inediti in presenza degli autori. Sarà presente
+      Don&nbsp;<b>Massimo Tellan</b> con il suo libro &ldquo;Petros&rdquo;.
+  place: banco dei libri in piazza sempione
+
+- time: "13:00"
+  title: Pranzo insieme
+  place: ""
+
+- time: "16:00"
+  title: "Presentazione mostra &ldquo;100 anni di Montesacro&rdquo;"
+  text: >-
+      Presentazione mostra &ldquo;100 anni di Montesacro&rdquo; a cura di
+      <b>Roberto Di Donato</b>. Saranno presenti gli autori dei libri su
+      Montesacro.
+  place: piazza sempione
+
+- time: "17:30"
+  title: "Incontro &ldquo;Il lavoro che cambia: come la formazione contribuisce alla rivoluzione in atto&rdquo;"
+  text: >-
+      Interverranno <b>Alessandro Mele</b>, presidente Cometa
+      Formazione Como, vice presidente ITS Italy; <b>Pierluigi Bartolomei</b>,
+      direttore generale istituto professionale ELIS Roma, presidente CENFOP.
+      Modera <b>Franco Ferrazza</b>, consulente aziendale e presidente CSO Lazio.
+  place: platea in piazza sempione
+
+- time: "18:30"
+  title: "Presentazione mostra &ldquo;Giussani 100 anni&rdquo;"
+  text: >-
+      Presentazione mostra &ldquo;Giussani 100 anni&rdquo; con Michele Borghi.
+  place: piazza sempione
+
+- time: "19:30"
+  title: Cena insieme
+  place: ""
+
+- time: "21:00"
+  title: "Concerto: Progetto Lucio Dalla"
+  text: >-
+      Orchestra con arrangiamenti di <b>Beppe Vessicchio</b>.
+  place: piazza sempione
 
 
 - type: separator
-  label: domenica 3
-  title: domenica 3 ottobre
+  label: domenica 2
+  title: domenica 2 ottobre
 
 - time: "10:00"
   title: "Santa Messa"
   text: >-
-      Santa Messa nella pineta.
-  place: platea nella pineta
+      Santa Messa celebrata da Padre&nbsp;<b>Mario Aceto</b>.
+  place: chiesa dei ss. angeli custodi
 
 - time: "11:00"
-  title: Incontro sulla famiglia
-  text: >-
-      &laquo;La famiglia è il luogo in cui le cose accadono, specialmente le cose
-      che contano&raquo; <i>(G. K. Chesterton)</i>. Testimonianze di <b>Macario
-      e Miriam</b> di Madrid. Sarà presente <b>Miriam Nembrini</b>. Modera
-      <b>Marco Martinelli</b>.
-  place: platea nella pineta
+  title: "Concerto: Banda Musicale della Polizia Locale di Roma Capitale"
+  text: ""
+  place: piazza sempione
 
-- time: "12:30"
+- time: "12:00"
+  title: Presentazione libri
+  text: >-
+      Saranno presentati alcuni inediti in presenza degli autori. Sarà presente
+      Don&nbsp;<b>Enzo Ferraro</b> con il suo libro &ldquo;L'arte di far
+      incontrare i cuori&rdquo;.
+  place: banco dei libri in piazza sempione
+
+- time: "13:00"
   title: Pranzo insieme
   place: ""
 
-- time: "14:30"
-  title: Giochi genitori e figli
+- time: "15:00"
+  title: "Concerto: Banda Musicale di Montesacro"
   text: >-
-      Corsa con i sacchi, tiro alla fune, gioco del fazzoletto etc.
-  place: "in pineta"
+      Direttore <b>Giovanni Melchiorre</b>.
+  place: piazza sempione
 
-- time: "15:30"
-  title: "Finestra sul lavoro: &ldquo;Lavorare così è un'altra cosa&rdquo;"
+- time: "16:00"
+  title: "Incontro: &ldquo;C'è una crepa in ogni cosa, è così che entra la luce&rdquo; <i>(L. Cohen)</i>"
   text: >-
-      Incontro con <b>Pietro Sala</b>, managing director in una importante
-      istituzione finanziaria. Con la giornalista <b>Marina Ricci</b>.
-  place: platea nella pineta
+      Incontro con <b>Julián Carrón</b>, docente Università Cattolica del Sacro
+      Cuore Milano, e <b>Costantino Esposito</b>, docente Università degli Studi
+      di Bari Aldo Moro. Modera la giornalista <b>Marina Ricci</b>.
+  place: platea in piazza sempione
 
-- time: "16:30"
-  title: "Concerto: associazione Vincenzo Bellini"
+- time: "17:45"
+  title: "Concerto: Coro &ldquo;Notevolmente&rdquo;"
   text: >-
-      Esibizione dell'associazione <b>Vincenzo Bellini</b>, band di Montesacro
-      diretta dal maestro <b>Giovanni Melchiorre</b>
-  place: platea nella pineta
-
-- time: "17:00"
-  title: "Incontro: Gaetano Savatteri"
-  text: >-
-      Sarà presente <b>Gaetano Savatteri</b>, giornalista e scrittore. Coordinano
-      l'incontro <b>Danilo Villani</b> e <b>Zaira Lo Buglio</b>.
-  place: platea nella pineta
+      Diretto da <b>Marco Schunnach</b>.
+  place: piazza sempione
 
 - time: "18:30"
-  title: Incontro &ldquo;Leggere in tempo di crisi&rdquo;
+  title: Incontro &ldquo;Ripensare l'urbanistica in funzione dell'incontro e della socialità&rdquo;
   text: >-
-      Incontro con <b>Fabio Pierangeli</b>, professore di Letteratura Italiana
-      presso l'Università di Tor Vergata, e <b>Alessandro Banfi</b>, giornalista.
-  place: platea nella pineta
+      Incontro con <b>Dino Blasi</b>, architetto e costruttore, e
+      Suor&nbsp;<b>Luisa Flamme</b>, ingegnere. Modera l'architetto <b>Alberto
+      Ricci</b>. Sarà presente il presidente del municipio III <b>Paolo Marchionne</b>.
+  place: platea in piazza sempione
 
 - time: "19:30"
-  title: Cena
+  title: Cena insieme
   place: ""
 
 - time: "20:30"
-  title: "Concerto: Mont Sacre Trio Jazz"
+  title: "Concerto: Mont Sacre Trio Jazz — Pizzica ma non fa male"
   text: >-
       Esibizione del gruppo <b>Mont Sacre Trio Jazz</b> di Corrado Severi,
-      Max De Lucia e Fabrizio Montemerano.
-  place: platea nella pineta
+      Max De Lucia e Fabrizio Montemerano. A seguire <b>Pizzica ma non fa male</b>,
+      complesso folk di Giovanni Mascaro.
+  place: piazza sempione
 
-- time: "21:30"
+- time: "22:30"
   title: Lotteria 2021
   text: >-
-      Estrazione vincitori della sottoscrizione a premi 2021.
-  place: platea nella pineta
+      Estrazione vincitori della sottoscrizione a premi 2022.
+  place: platea in piazza sempione
