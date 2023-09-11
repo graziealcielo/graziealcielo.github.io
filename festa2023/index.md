@@ -10,8 +10,9 @@ redirect_from:
     - /festa2019/
     - /festa2020/
     - /festa2021/
+    - /festa2022/
 ---
-## &ldquo;Vivere intensamente il reale&rdquo;
+## &ldquo;Educazione: introduzione alla realtà totale&rdquo;
 
 Vivere intensamente il reale è non far fuori mai il nostro bisogno strutturale, il nostro
 desiderio di felicità, di bellezza, di verità. Tre giorni per &ldquo;aguzzare la vista&rdquo;,
