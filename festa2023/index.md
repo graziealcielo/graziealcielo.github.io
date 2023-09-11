@@ -10,6 +10,7 @@ redirect_from:
     - /festa2019/
     - /festa2020/
     - /festa2021/
+    - /festa2022/
 ---
 ## &ldquo;Vivere intensamente il reale&rdquo;
 
