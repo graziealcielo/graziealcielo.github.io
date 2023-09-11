@@ -30,6 +30,7 @@ fragment:
         <style>#contatti { word-wrap: break-word; } @media (max-width: 1000px) { #contatti::after { background-size: auto 100%; } } @media (max-width: 480px) { #contatti::after { background-position: right; } }</style>
         <p><b class="no-select">Posta elettronica:<br></b><a href="mailto:associazionegraziealcielo@gmail.com">associazionegraziealcielo@gmail.com</a></p>
         <p><b class="no-select">Facebook:<br></b><a href="https://www.facebook.com/assciazionegraziealcielo/" target="_blank">https://www.facebook.com/assciazionegraziealcielo</a></p>
+        <p><b class="no-select">Instagram:<br></b><a href="https://www.instagram.com/graziealcielomontesacro/" target="_blank">https://www.instagram.com/graziealcielomontesacro/</a></p>
         <p><b class="no-select">YouTube:<br></b><a href="https://www.youtube.com/channel/UCMtiPb-0WCngWvJ3EmmaHwA" target="_blank">Associazione Culturale Grazie Al Cielo</a>
 ---
 ## La nostra storia
