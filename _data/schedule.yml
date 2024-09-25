@@ -1,159 +1,181 @@
 - type: separator
-  label: venerdì 30
-  title: venerdì 30 settembre
+  label: giovedì 3
+  title: giovedì 3 ottobre
 
 - time: "19:00"
-  title: 100 anni di Don Giussani
+  title: "IL MEDICO DEL POPOLO: Vita e opera di José Hernandez"
   text: >-
-      Testimonianze di Don <b>Donato Perron</b>, <b>Gino Agnese</b> (giornalista)
-      e del dott.&nbsp;<b>Adriano Rusconi</b> (medico).
+      Modera <b>Flavia Pauri</b>.
+      La mostra resterà esposta in piazza per tutta la durata della manifestazione.
   place: sala consiliare municipio III, piazza sempione
 
-- time: "20:30"
-  title: Cena insieme
-  place: ""
+- time: "20:00"
+  title: Cena e serata di canti
+  place: oratorio ss. angeli custodi
+
+- type: separator
+  label: venerdì 4
+  title: venerdì 4 ottobre
+
+- time: "16:30"
+  title: Apertura Villaggio Ragazzi
+  text: >-
+      Giochi, laboratori, letture e spettacoli.
+  place: via delle alpi apuane, sotto l'arco della piazza
+
+- time: "18:30"
+  title: "&ldquo;Cercare il senso della vita, e della vita che resta, camminando insieme verso la speranza oltre la speranza&rdquo;"
+  text: >-
+      Incontro sulle cure palliative moderne.
+      Partecipano <b>Anna Brizio</b> e <b>S. E. Salera</B>.
+      Modera <b>Amedeo Capetti</b>.
+      Saluto del presidente del Municipio III, <b>Paolo Marchionne</b>.
+  place: sala consiliare municipio III, piazza sempione
 
 - time: "21:30"
-  title: Serata di canti
-  place: ""
+  title: "Concerto: band Amour Toujours"
+  place: platea in piazza sempione
 
 - type: separator
-  label: sabato 1
-  title: sabato 1 ottobre
+  label: sabato 5
+  title: sabato 5 ottobre
 
 - time: "10:00"
-  title: Torneo di Volley
+  title: Apertura degli stand
   text: >-
-      Inizio del torneo di <b>Volley</b> organizzato da Daniele Matteini.
+      Esposizione mostra <b>&ldquo;Giovani amici di Dio&rdquo;</b>.
+      Villaggio Ragazzi e mostra di pittura con artisti locali
+      in memoria di Isabella Pettine.
   place: piazza sempione
 
-- time: "11:00"
-  title: Laboratorio di discipline pittoriche
-  text: >-
-      A cura di Laura Grosso.
-  place: piazza sempione
-
-- time: "11:30"
+- time: "10:30"
   title: Incontro delle associazioni di volontariato
   text: >-
-      Coordina il dott.&nbsp;<b>Mauro Raffaeli</b> Psichiatra ASL Roma 1. Sarà
-      presente l'assessore <b>Maria Concetta Romano</b>. Seguirà pranzo insieme.
+      Saranno presenti l'assessore <b>M. Romano</b> e <b>Mauro Raffaeli</b>.
   place: sala consiliare municipio III, piazza sempione
 
-- time: "12:00"
-  title: Presentazione libri
+- time: "10:45"
+  title: Matematica per tutti attraverso il gioco
   text: >-
-      Saranno presentati alcuni inediti in presenza degli autori. Sarà presente
-      Don&nbsp;<b>Massimo Tellan</b> con il suo libro &ldquo;Petros&rdquo;.
-  place: banco dei libri in piazza sempione
-
-- time: "13:00"
-  title: Pranzo insieme
-  place: ""
-
-- time: "16:00"
-  title: "Presentazione mostra &ldquo;100 anni di Montesacro&rdquo;"
-  text: >-
-      Presentazione mostra &ldquo;100 anni di Montesacro&rdquo; a cura di
-      <b>Roberto Di Donato</b>. Saranno presenti gli autori dei libri su
-      Montesacro.
+      Presso il Villaggio Ragazzi a cura dell'<b>Assiociazione TOKALON</b>.
   place: piazza sempione
-
-- time: "17:30"
-  title: "Incontro &ldquo;Il lavoro che cambia: come la formazione contribuisce alla rivoluzione in atto&rdquo;"
-  text: >-
-      Interverranno <b>Alessandro Mele</b>, presidente Cometa
-      Formazione Como, vice presidente ITS Italy; <b>Pierluigi Bartolomei</b>,
-      direttore generale istituto professionale ELIS Roma, presidente CENFOP.
-      Modera <b>Franco Ferrazza</b>, consulente aziendale e presidente CSO Lazio.
-  place: platea in piazza sempione
-
-- time: "18:30"
-  title: "Presentazione mostra &ldquo;Giussani 100 anni&rdquo;"
-  text: >-
-      Presentazione mostra &ldquo;Giussani 100 anni&rdquo; con Michele Borghi.
-  place: piazza sempione
-
-- time: "19:30"
-  title: Cena insieme
-  place: ""
-
-- time: "21:00"
-  title: "Concerto: Progetto Lucio Dalla"
-  text: >-
-      Orchestra con arrangiamenti di <b>Beppe Vessicchio</b>.
-  place: piazza sempione
-
-
-- type: separator
-  label: domenica 2
-  title: domenica 2 ottobre
-
-- time: "10:00"
-  title: "Santa Messa"
-  text: >-
-      Santa Messa celebrata da Padre&nbsp;<b>Mario Aceto</b>.
-  place: chiesa dei ss. angeli custodi
 
 - time: "11:00"
-  title: "Concerto: Banda Musicale della Polizia Locale di Roma Capitale"
-  text: ""
-  place: piazza sempione
+  title: "Presentazione libro: Le competenze di un Padre"
+  text: >-
+      Sarà presente l'autore <b>Marco Martinelli</b>.
+  place: platea in piazza sempione
 
 - time: "12:00"
-  title: Presentazione libri
+  title: "EDUCARE AL PIACERE DEL VINO"
   text: >-
-      Saranno presentati alcuni inediti in presenza degli autori. Sarà presente
-      Don&nbsp;<b>Enzo Ferraro</b> con il suo libro &ldquo;L'arte di far
-      incontrare i cuori&rdquo;.
-  place: banco dei libri in piazza sempione
-
-- time: "13:00"
-  title: Pranzo insieme
-  place: ""
-
-- time: "15:00"
-  title: "Concerto: Banda Musicale di Montesacro"
-  text: >-
-      Direttore <b>Giovanni Melchiorre</b>.
+      Degustazione con <b>La Banda del Collio</b>.
   place: piazza sempione
 
 - time: "16:00"
-  title: "Incontro: &ldquo;C'è una crepa in ogni cosa, è così che entra la luce&rdquo; <i>(L. Cohen)</i>"
+  title: Incontro sul tema della festa
   text: >-
-      Incontro con <b>Julián Carrón</b>, docente Università Cattolica del Sacro
-      Cuore Milano, e <b>Costantino Esposito</b>, docente Università degli Studi
-      di Bari Aldo Moro. Modera la giornalista <b>Marina Ricci</b>.
+      <b>Giorgio Paolucci</b> dialogherà con
+      <b>Suor Marcella Catozza</b>,
+      <b>Dado Peluso</b>
+      e <b>Gianni Mereghetti</b>.
   place: platea in piazza sempione
 
-- time: "17:45"
-  title: "Concerto: Coro &ldquo;Notevolmente&rdquo;"
+- time: "18:00"
+  title: "Presentazione progetto: FONDAZIONE GENERAZIONE INCONTRA MONTESACRO"
   text: >-
-      Diretto da <b>Marco Schunnach</b>.
-  place: piazza sempione
+      Per l'apertura di una casa d'accoglienza
+      per anziani e studenti.
+      In collaborazione con l'associazione
+      <b>Il ballo della vita</b>.
+  place: platea in piazza sempione
 
 - time: "18:30"
-  title: Incontro &ldquo;Ripensare l'urbanistica in funzione dell'incontro e della socialità&rdquo;
+  title: "LA VITA È L'ARTE DELL'INCONTRO"
   text: >-
-      Incontro con <b>Dino Blasi</b>, architetto e costruttore, e
-      Suor&nbsp;<b>Luisa Flamme</b>, ingegnere. Modera l'architetto <b>Alberto
-      Ricci</b>. Sarà presente il presidente del municipio III <b>Paolo Marchionne</b>.
+      Con <b>Vinicius de Moraes</b>.
+      La religiosità nella musica brasiliana.
+      Recital di <b>Maria Rita Ortolani</b>,
+      <b>Michael Alberga</b>
+      e <b>Pietro Toffoletto</b>.
+      A cura di <b>S. E. Santoro</b>,
+      <b>Ciceri</b> e <b>Massimo Morelli</b>.
   place: platea in piazza sempione
 
-- time: "19:30"
-  title: Cena insieme
-  place: ""
-
-- time: "20:30"
-  title: "Concerto: Mont Sacre Trio Jazz — Pizzica ma non fa male"
+- time: "21:30"
+  title: "Concerto: Mauro Moruzzi Junior Band"
   text: >-
-      Esibizione del gruppo <b>Mont Sacre Trio Jazz</b> di Corrado Severi,
-      Max De Lucia e Fabrizio Montemerano. A seguire <b>Pizzica ma non fa male</b>,
-      complesso folk di Giovanni Mascaro.
+      Orchestra giovanile di Cremona di 60 elementi.
+  place: platea in piazza sempione
+
+- type: separator
+  label: domenica 6
+  title: domenica 6 ottobre
+
+- time: "09:00"
+  title: "Santa Messa"
+  text: >-
+      Sarà presente <b>Don Remigio Bellizio</b>,
+      responsabile della comunità di Roma di C.L.
+      con i padri caracciolini
+      della parrocchia dei SS. Angeli Custodi.
+  place: chiesa dei ss. angeli custodi
+
+- time: "10:00"
+  title: "LA FAMIGLIA: UN TESORO DA CUSTODIRE"
+  text: >-
+      Colazione delle famiglie.
+      A seguire incontro: alcune famiglie raccontano.
+      Coordina <b>Marco Martinelli</b>.
+  place: platea in piazza sempione
+
+- time: "10:30"
+  title: "Apertura Villaggio Ragazzi e attività della mattina"
   place: piazza sempione
 
-- time: "22:30"
-  title: Lotteria 2021
+- time: "12:00"
+  title: Quel desiderio di una Rossa Sera
   text: >-
-      Estrazione vincitori della sottoscrizione a premi 2022.
+      Testimonianze degli <b>Amici di Alcamo</b>
+      e delle loro opere.
+      Intervengono <b>Livorio Ebola</b>
+      e <b>Delfina Bambina</b>.
+      Modera <b>Franco Ferrazza</b>.
+  place: platea in piazza sempione
+
+- time: "16:00"
+  title: EDUCARE SECONDO DON GIUSSANI
+  text: >-
+      Incontro sull'educazione partendo dal libro
+      di <b>Donatella Morelli</b>
+      e <b>Jose Rodelgo-Bueno</b>.
+  place: platea in piazza sempione
+
+- time: "17:30"
+  title: "IL MISTERO DELLE ICONE BIZANTINE DI STRADA"
+  text: >-
+      Incontro con <b>Mr Klevra</b>, street artist,
+      e inaugurazione dell'<b>opera dedicata a Montesacro</b>.
+  place: platea in piazza sempione
+
+- time: "18:30"
+  title: Non c'è inizio senza perdono
+  text: >-
+      Dialogo tra <b>Don Niccolò Ceccolini</b>,
+      <b>Zef Karaci</b>
+      e <b>Fernando Morán</b>.
+      Con la ONG spagnola <b>Cesal</b>.
+      Coordina <b>Maurizio dell'Unto</b>.
+  place: platea in piazza sempione
+
+- time: "21:00"
+  title: "SEMPIONE MUSIC CONTEST"
+  text: >-
+      <b>&ldquo;Nelle note di Claudio&rdquo;</b>, padre e figli.
+  place: platea in piazza sempione
+
+- time: "22:30"
+  title: Lotteria 2024
+  text: >-
+      Estrazione vincitori della sottoscrizione a premi 2024.
   place: platea in piazza sempione
