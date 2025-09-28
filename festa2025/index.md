@@ -38,5 +38,5 @@ e della parrocchia dei Ss. Angeli Custodi.
 
 <nav class="inline-navbar">
     <a download href="volontariato_montesacro_2025.pdf">Scarica il volantino</a>
-    <a href="programma">Leggi il programma</a>
+    <!--<a href="programma">Leggi il programma</a>-->
 </nav>
