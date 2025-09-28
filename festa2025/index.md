@@ -33,8 +33,14 @@ associazioni di volontariato raccolte insieme a Montesacro per
 tre giorni di incontro con il quartiere, cultura, riflessione, solidarietà,
 condivisione e divertimento in compagnia per adulti e bambini.
 
-Con il patrocinio del Terzo Municipio, della rivista &ldquo;Incontro alla realtà&rdquo;
-e della parrocchia dei Ss. Angeli Custodi.
+- Oltre **30 stand** di associazioni di **volontariato**
+- <b>Pranzo e cena insieme</b> ogni giorno alle ore 13:00 e alle ore 20:00
+- **Stand libreria** con presentazioni di libri
+- Gli **amici del bar Alcamo** e le loro **specialità siciliane**
+- **Villaggio ragazzi** con giochi, laboratori, letture e spettacoli ogni giorno 10:00–12:00/16:00–19:00
+- **Mostre in piazza** visitabili sabato 11 e domenica 12:
+  **Sub Tutela Dei — il giudice Rosario Livatino** e **Santi della Porta Accanto**.
+- Estrazione della **sottoscrizione a premi** 2025
 
 <nav class="inline-navbar">
     <a download href="volontariato_montesacro_2025.pdf">Scarica il volantino</a>
