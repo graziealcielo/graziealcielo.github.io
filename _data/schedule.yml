@@ -1,181 +1,135 @@
 - type: separator
-  label: giovedì 3
-  title: giovedì 3 ottobre
+  label: venerdì 10
+  title: venerdì 10 ottobre
 
-- time: "19:00"
-  title: "IL MEDICO DEL POPOLO: Vita e opera di José Hernandez"
+- time: "17:00"
+  title: Spettacolo di magia per grandi e bambini
   text: >-
-      Modera <b>Flavia Pauri</b>.
-      La mostra resterà esposta in piazza per tutta la durata della manifestazione.
-  place: sala consiliare municipio III, piazza sempione
-
-- time: "20:00"
-  title: Cena e serata di canti
-  place: oratorio ss. angeli custodi
-
-- type: separator
-  label: venerdì 4
-  title: venerdì 4 ottobre
-
-- time: "16:30"
-  title: Apertura Villaggio Ragazzi
-  text: >-
-      Giochi, laboratori, letture e spettacoli.
-  place: via delle alpi apuane, sotto l'arco della piazza
-
-- time: "18:30"
-  title: "&ldquo;Cercare il senso della vita, e della vita che resta, camminando insieme verso la speranza oltre la speranza&rdquo;"
-  text: >-
-      Incontro sulle cure palliative moderne.
-      Partecipano <b>Anna Brizio</b> e <b>S. E. Salera</B>.
-      Modera <b>Amedeo Capetti</b>.
-      Saluto del presidente del Municipio III, <b>Paolo Marchionne</b>.
-  place: sala consiliare municipio III, piazza sempione
-
-- time: "21:30"
-  title: "Concerto: band Amour Toujours"
-  place: platea in piazza sempione
-
-- type: separator
-  label: sabato 5
-  title: sabato 5 ottobre
-
-- time: "10:00"
-  title: Apertura degli stand
-  text: >-
-      Esposizione mostra <b>&ldquo;Giovani amici di Dio&rdquo;</b>.
-      Villaggio Ragazzi e mostra di pittura con artisti locali
-      in memoria di Isabella Pettine.
-  place: piazza sempione
-
-- time: "10:30"
-  title: Incontro delle associazioni di volontariato
-  text: >-
-      Saranno presenti l'assessore <b>M. Romano</b> e <b>Mauro Raffaeli</b>.
-  place: sala consiliare municipio III, piazza sempione
-
-- time: "10:45"
-  title: Matematica per tutti attraverso il gioco
-  text: >-
-      Presso il Villaggio Ragazzi a cura dell'<b>Assiociazione TOKALON</b>.
-  place: piazza sempione
-
-- time: "11:00"
-  title: "Presentazione libro: Le competenze di un Padre"
-  text: >-
-      Sarà presente l'autore <b>Marco Martinelli</b>.
-  place: platea in piazza sempione
-
-- time: "12:00"
-  title: "EDUCARE AL PIACERE DEL VINO"
-  text: >-
-      Degustazione con <b>La Banda del Collio</b>.
-  place: piazza sempione
-
-- time: "16:00"
-  title: Incontro sul tema della festa
-  text: >-
-      <b>Giorgio Paolucci</b> dialogherà con
-      <b>Suor Marcella Catozza</b>,
-      <b>Dado Peluso</b>
-      e <b>Gianni Mereghetti</b>.
+      Con <b>Mago Magone</b>... in arte <b>Fra Adriano</b>.
   place: platea in piazza sempione
 
 - time: "18:00"
-  title: "Presentazione progetto: FONDAZIONE GENERAZIONE INCONTRA MONTESACRO"
+  title: "Rosario Livatino: un magistrato, un cristiano, un uomo unito"
   text: >-
-      Per l'apertura di una casa d'accoglienza
-      per anziani e studenti.
-      In collaborazione con l'associazione
-      <b>Il ballo della vita</b>.
-  place: platea in piazza sempione
-
-- time: "18:30"
-  title: "LA VITA È L'ARTE DELL'INCONTRO"
-  text: >-
-      Con <b>Vinicius de Moraes</b>.
-      La religiosità nella musica brasiliana.
-      Recital di <b>Maria Rita Ortolani</b>,
-      <b>Michael Alberga</b>
-      e <b>Pietro Toffoletto</b>.
-      A cura di <b>S. E. Santoro</b>,
-      <b>Ciceri</b> e <b>Massimo Morelli</b>.
-  place: platea in piazza sempione
+      Partecipano <b>Paolo Nesta</b>, Consigliere dell’ordine degli Avvocati di Roma;
+      <b>Domenico Airoma</b>, Vicepresidente Centro Studi Rosario Livatino
+      e Procuratore della Repubblica di Avellino;
+      <b>Carlo Tremolada</b>, Presidente Libera Associazione Forense.
+      Introduce <b>don Remigio Bellizio</b>, Responsabile Comunione e Liberazione di Roma.
+      Saluto di <b>Paolo Marchionne</b>, presidente del Municipio III.
+  place: sala agnini, viale adriatico 136
 
 - time: "21:30"
-  title: "Concerto: Mauro Moruzzi Junior Band"
-  text: >-
-      Orchestra giovanile di Cremona di 60 elementi.
-  place: platea in piazza sempione
+  title: Serata canti
+  place: via delle alpi apuane, sotto l'arco della piazza
 
 - type: separator
-  label: domenica 6
-  title: domenica 6 ottobre
-
-- time: "09:00"
-  title: "Santa Messa"
-  text: >-
-      Sarà presente <b>Don Remigio Bellizio</b>,
-      responsabile della comunità di Roma di C.L.
-      con i padri caracciolini
-      della parrocchia dei SS. Angeli Custodi.
-  place: chiesa dei ss. angeli custodi
-
-- time: "10:00"
-  title: "LA FAMIGLIA: UN TESORO DA CUSTODIRE"
-  text: >-
-      Colazione delle famiglie.
-      A seguire incontro: alcune famiglie raccontano.
-      Coordina <b>Marco Martinelli</b>.
-  place: platea in piazza sempione
+  label: sabato 11
+  title: sabato 11 ottobre
 
 - time: "10:30"
-  title: "Apertura Villaggio Ragazzi e attività della mattina"
-  place: piazza sempione
-
-- time: "12:00"
-  title: Quel desiderio di una Rossa Sera
+  title: Le associazioni di volontariato si incontrano
   text: >-
-      Testimonianze degli <b>Amici di Alcamo</b>
-      e delle loro opere.
-      Intervengono <b>Livorio Ebola</b>
-      e <b>Delfina Bambina</b>.
-      Modera <b>Franco Ferrazza</b>.
+      <b>Fondazione GIM</b> e <b>Associazione Ballo della Vita</b>: il cammino di un anno.
+      Testimonianza dell'<b>Associazione La Mongolfiera</b>.
+      Saluto di <b>M. Romano</b>, Assessore Politiche Sociali III Municipio.
+      Moderano <b>Tonino Pasquale</b> e <b>Mauro Raffaeli</b>.
   place: platea in piazza sempione
 
-- time: "16:00"
-  title: EDUCARE SECONDO DON GIUSSANI
+- time: "12:00"
+  title: Essere amati è un miracolo. Esperienze di accoglienza, affido e adozione
   text: >-
-      Incontro sull'educazione partendo dal libro
-      di <b>Donatella Morelli</b>
-      e <b>Jose Rodelgo-Bueno</b>.
+      Testimonianze dei coniugi <b>Capetti</b>, <b>Donatella Vetri</b>, <b>Roberto Nuti</b>.
+      Modera <b>suor Marcella Catozza</b>, missionaria.
+  place: platea in piazza sempione
+
+- time: "15:30"
+  title: "Santi della Porta Accanto: Pier Giorgio Frassati, Carlo Acutis e Marcos Pou"
+  text: >-
+      Partecipano <b>Matteo Pou</b>, fratello di <b>Marcos</b>; <b>Josè Miguel Garcia</b>, sacerdote;
+      <b>Primo Soldi</b>, sacerdote; <b>Compagnia Dei Tipi Loschi</b>.
+      Modera <b>Silvia Guidi</b>, giornalista.
   place: platea in piazza sempione
 
 - time: "17:30"
-  title: "IL MISTERO DELLE ICONE BIZANTINE DI STRADA"
+  title: Un incontro che ti cambia. Ogni luogo è possibile
   text: >-
-      Incontro con <b>Mr Klevra</b>, street artist,
-      e inaugurazione dell'<b>opera dedicata a Montesacro</b>.
+      Partecipano <b>Claudio Lo Sterzo</b>, docente universitario;
+      <b>Domenico Pace</b>, detenuto presso il carcere di Sulmona.
+      Modera <b>Giorgio Paolucci</b>, giornalista.
   place: platea in piazza sempione
 
-- time: "18:30"
-  title: Non c'è inizio senza perdono
+- time: "19:00"
+  title: "Concerto Rap: Capez e Adam Gallo"
+  place: platea in piazza sempione
+
+- time: "20:45"
+  title: "Concerti: Lo Sconcerto / Nelle note di Claudio"
   text: >-
-      Dialogo tra <b>Don Niccolò Ceccolini</b>,
-      <b>Zef Karaci</b>
-      e <b>Fernando Morán</b>.
-      Con la ONG spagnola <b>Cesal</b>.
-      Coordina <b>Maurizio dell'Unto</b>.
+      Concerto musicale con la partecipazione dei
+      ragazzi de <b>Lo Sconcerto</b>, studenti IIS Pacinotti - Archimede; a
+      seguire concerto del gruppo <b>Nelle note di Claudio</b> progetto
+      padre e figli.
+  place: platea in piazza sempione
+
+- type: separator
+  label: domenica 12
+  title: domenica 12 ottobre
+
+- time: "10:00"
+  title: "Santa Messa"
+  place: chiesa dei ss. angeli custodi, piazza sempione
+
+- time: "10:50"
+  title: Colazione in famiglia. Il bene della natalità
+  text: >-
+      Partecipa <b>Piero Vietti</b>, giornalista.
+  place: platea in piazza sempione
+
+- time: "11:30"
+  title: Una birra in compagnia
+  text: >-
+      Degustazione guidata birre artigianali conventuali
+      a cura della <b>Banda del Collio</b> con il sommelier della birra <b>Fulvio Montozzi</b>.
+  place: teatro parrocchiale dei ss. angeli custodi, via delle alpi apuane
+
+- time: "12:00"
+  title: Concerto dell'Orchestra giovanile Papillon
+  text: >-
+      Direttore <b>Roberto Nobilio</b>.
+  place: platea in piazza sempione
+
+- time: "15:30"
+  title: La traviata, itinerario dell'amore vero
+  text: >-
+      Partecipa <b>Marco Ruffini</b>, sacerdote.
+      Modera <b>Rosy Manganelli</b>, studentessa.
+  place: sala consiliare municipio III, piazza sempione
+
+- time: "16:00"
+  title: Concerto dell'Orchestra Mandolinistica Romana
+  place: platea in piazza sempione
+
+- time: "17:00"
+  title: Concerto del coro Virgo Fidelis
+  text: >-
+      Coro del comando generale dell'<b>Arma dei Carabinieri</b>.
+  place: scalinata dei ss. angeli custodi, piazza sempione
+
+- time: "18:00"
+  title: Tutto nasce da un incontro
+  text: >-
+      Partecipano <b>Alessandro Sortino</b>, giornalista e autore televisivo;
+      <b>Peppe Fidelibus</b>, docente universitario.
+      Modera <b>Marina Ricci</b>, giornalista.
   place: platea in piazza sempione
 
 - time: "21:00"
-  title: "SEMPIONE MUSIC CONTEST"
-  text: >-
-      <b>&ldquo;Nelle note di Claudio&rdquo;</b>, padre e figli.
+  title: Concerto della band Rotattada
   place: platea in piazza sempione
 
 - time: "22:30"
-  title: Lotteria 2024
+  title: Lotteria 2025
   text: >-
-      Estrazione vincitori della sottoscrizione a premi 2024.
+      Estrazione vincitori della sottoscrizione a premi 2025.
   place: platea in piazza sempione
